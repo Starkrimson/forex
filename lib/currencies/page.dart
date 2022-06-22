@@ -60,29 +60,32 @@ class CurrencyCell extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Container(
-          padding: const EdgeInsets.all(8.0),
-          width: 80,
-          child: Center(
+    return Container(
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.grey),
+        borderRadius: BorderRadius.circular(6),
+      ),
+      height: 36,
+      padding: const EdgeInsets.symmetric(horizontal: 8),
+      child: Row(
+        children: [
+          Text(
+            item.flag,
+            style: const TextStyle(fontSize: 24),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 6.0),
+            child: Text(item.code),
+          ),
+          Expanded(
             child: Text(
-              item.flag,
-              style: const TextStyle(fontSize: 40),
+              item.name,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
             ),
           ),
-        ),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              "${item.symbol} - ${item.code}",
-              style: const TextStyle(fontWeight: FontWeight.bold),
-            ),
-            Text(item.name),
-          ],
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
