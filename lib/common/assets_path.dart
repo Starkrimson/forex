@@ -3,5 +3,5 @@
 /// ======================================
 
 class Assets {
-	static const String currencies = "assets/currencies.json";
+  static const String currencies = "assets/currencies.json";
 }

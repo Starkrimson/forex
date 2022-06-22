@@ -1,6 +1,13 @@
+// Dart imports:
 import 'dart:convert';
-import 'package:bloc/bloc.dart';
+
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:bloc/bloc.dart';
+
+// Project imports:
 import 'package:forex/common/assets_path.dart';
 import 'package:forex/currencies/model.dart';
 

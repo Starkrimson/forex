@@ -1,7 +1,11 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+// Project imports:
 import 'package:forex/currencies/cubit.dart';
-import 'package:forex/currencies/page.dart';
 import 'package:forex/forex/cubit.dart';
 import 'package:forex/forex/page.dart';
 

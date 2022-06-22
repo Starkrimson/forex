@@ -1,8 +1,13 @@
-import 'package:bloc/bloc.dart';
+// Flutter imports:
 import 'package:flutter/widgets.dart';
+
+// Package imports:
+import 'package:bloc/bloc.dart';
+import 'package:uuid/uuid.dart';
+
+// Project imports:
 import 'package:forex/currencies/model.dart';
 import 'package:forex/forex/model.dart';
-import 'package:uuid/uuid.dart';
 
 /// ======== Forex State ========
 @immutable
