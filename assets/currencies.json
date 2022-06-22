@@ -2,3390 +2,1009 @@
   {
     "code": "AED",
     "symbol": "د.إ",
-    "name": "United Arab Emirates dirham",
-    "countryKeywords": [
-      "AED",
-      "AE",
-      "are",
-      "United Arab Emirates"
-    ],
-    "supportsDecimals": true
+    "name": "United Arab Emirates Dirham",
+    "flag": "🇦🇪"
   },
   {
     "code": "AFN",
     "symbol": "؋",
-    "name": "Afghanistan afghani",
-    "countryKeywords": [
-      "Afghanistan",
-      "afg",
-      "AF",
-      "AFN"
-    ],
-    "supportsDecimals": true
+    "name": "Afghan Afghani",
+    "flag": "🇦🇫"
   },
   {
     "code": "ALL",
     "symbol": "Lek",
-    "name": "Albanian lek",
-    "countryKeywords": [
-      "ALL",
-      "alb",
-      "AL",
-      "Albania"
-    ],
-    "supportsDecimals": true
+    "name": "Albanian Lek",
+    "flag": "🇦🇱"
   },
   {
     "code": "AMD",
     "symbol": "֏",
-    "name": "Armenian dram",
-    "countryKeywords": [
-      "Armenia",
-      "AMD",
-      "AM",
-      "arm"
-    ],
-    "supportsDecimals": true
+    "name": "Armenian Dram",
+    "flag": "🇦🇲"
   },
   {
     "code": "ANG",
     "symbol": "ƒ",
-    "name": "Netherlands Antillean guilder",
-    "countryKeywords": [
-      "Sint Maarten (Dutch part)",
-      "CW",
-      "cuw",
-      "SX",
-      "ant",
-      "Netherlands Antilles",
-      "sxm",
-      "ANG",
-      "Curaçao",
-      "AN"
-    ],
-    "supportsDecimals": true
+    "name": "Netherlands Antillean Guilder",
+    "flag": ""
   },
   {
     "code": "AOA",
     "symbol": "Kz",
-    "name": "Angolan kwanza",
-    "countryKeywords": [
-      "AOA",
-      "Angola",
-      "ago",
-      "AO"
-    ],
-    "supportsDecimals": true
+    "name": "Angolan Kwanza",
+    "flag": "🇦🇴"
   },
   {
     "code": "ARS",
     "symbol": "$",
-    "name": "Argentine peso",
-    "countryKeywords": [
-      "AR",
-      "ARS",
-      "Argentina",
-      "arg"
-    ],
-    "supportsDecimals": true
+    "name": "Argentine Peso",
+    "flag": "🇦🇷"
   },
   {
     "code": "AUD",
-    "symbol": "A$",
-    "name": "Australian dollar",
-    "countryKeywords": [
-      "TV",
-      "NR",
-      "HM",
-      "Christmas Island",
-      "cck",
-      "Kiribati",
-      "AUD",
-      "tuv",
-      "kir",
-      "Cocos (Keeling) Islands",
-      "cxr",
-      "KI",
-      "CC",
-      "Heard Island and McDonald Islands",
-      "Tuvalu",
-      "Norfolk Island",
-      "nru",
-      "nfk",
-      "AU",
-      "CX",
-      "NF",
-      "Nauru",
-      "Australia",
-      "hmd",
-      "aus"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Australian Dollar",
+    "flag": "🇦🇺"
   },
   {
     "code": "AWG",
-    "symbol": "AWG",
-    "name": "Aruban florin",
-    "countryKeywords": [
-      "AWG",
-      "AW",
-      "abw",
-      "Aruba"
-    ],
-    "supportsDecimals": true
+    "symbol": "ƒ",
+    "name": "Aruban Florin",
+    "flag": "🇦🇼"
   },
   {
     "code": "AZN",
-    "symbol": "man.",
-    "name": "Azerbaijani manat",
-    "countryKeywords": [
-      "Azerbaijan",
-      "AZN",
-      "AZ",
-      "aze"
-    ],
-    "supportsDecimals": true
+    "symbol": "₼",
+    "name": "Azerbaijani Manat",
+    "flag": "🇦🇿"
   },
   {
     "code": "BAM",
-    "symbol": "KM",
-    "name": "Bosnia and Herzegovina convertible mark",
-    "countryKeywords": [
-      "bih",
-      "Bosnia and Herzegovina",
-      "BAM",
-      "BA"
-    ],
-    "supportsDecimals": true
+    "symbol": "КМ",
+    "name": "Bosnia-Herzegovina Convertible Mark",
+    "flag": "🇧🇦"
   },
   {
     "code": "BBD",
-    "symbol": "BBD",
-    "name": "Barbadian dollar",
-    "countryKeywords": [
-      "BB",
-      "brb",
-      "Barbados",
-      "BBD"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Barbadian Dollar",
+    "flag": "🇧🇧"
   },
   {
     "code": "BDT",
-    "symbol": "Tk",
-    "name": "Bangladeshi taka",
-    "countryKeywords": [
-      "BD",
-      "Bangladesh",
-      "BDT",
-      "bgd"
-    ],
-    "supportsDecimals": true
+    "symbol": "৳",
+    "name": "Bangladeshi Taka",
+    "flag": "🇧🇩"
   },
   {
     "code": "BGN",
-    "symbol": "лв",
-    "name": "Bulgarian lev",
-    "countryKeywords": [
-      "BG",
-      "BGN",
-      "bgr",
-      "Bulgaria"
-    ],
-    "supportsDecimals": true
+    "symbol": "лв.",
+    "name": "Bulgarian Lev",
+    "flag": "🇧🇬"
   },
   {
     "code": "BHD",
-    "symbol": "BHD",
-    "name": "Bahraini dinar",
-    "countryKeywords": [
-      "BH",
-      "bhr",
-      "Bahrain",
-      "BHD"
-    ],
-    "supportsDecimals": true
+    "symbol": ".د.ب",
+    "name": "Bahraini Dinar",
+    "flag": "🇧🇭"
   },
   {
     "code": "BIF",
-    "symbol": "BIF",
-    "name": "Burundian franc",
-    "countryKeywords": [
-      "Burundi",
-      "bdi",
-      "BI",
-      "BIF"
-    ],
-    "supportsDecimals": false
+    "symbol": "FBu",
+    "name": "Burundian Franc",
+    "flag": "🇧🇮"
   },
   {
     "code": "BMD",
-    "symbol": "BMD",
-    "name": "Bermudian dollar",
-    "countryKeywords": [
-      "BMD",
-      "Bermuda",
-      "BM",
-      "bmu"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Bermudan Dollar",
+    "flag": "🇧🇲"
   },
   {
     "code": "BND",
-    "symbol": "BND",
-    "name": "Brunei dollar",
-    "countryKeywords": [
-      "BND",
-      "BN",
-      "Brunei Darussalam",
-      "brn"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Brunei Dollar",
+    "flag": "🇧🇳"
   },
   {
     "code": "BOB",
-    "symbol": "BOB",
-    "name": "Bolivian boliviano",
-    "countryKeywords": [
-      "BOB",
-      "Bolivia",
-      "BO",
-      "bol"
-    ],
-    "supportsDecimals": true
+    "symbol": "Bs",
+    "name": "Bolivian Boliviano",
+    "flag": "🇧🇴"
   },
   {
     "code": "BRL",
     "symbol": "R$",
-    "name": "Brazilian real",
-    "countryKeywords": [
-      "BR",
-      "bra",
-      "Brazil",
-      "BRL"
-    ],
-    "supportsDecimals": true
+    "name": "Brazilian Real",
+    "flag": "🇧🇷"
   },
   {
     "code": "BSD",
-    "symbol": "BSD",
-    "name": "Bahamian dollar",
-    "countryKeywords": [
-      "BS",
-      "BSD",
-      "bhs",
-      "Bahamas"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Bahamian Dollar",
+    "flag": "🇧🇸"
+  },
+  {
+    "code": "BTC",
+    "symbol": "₿",
+    "name": "Bitcoin",
+    "flag": ""
   },
   {
     "code": "BTN",
-    "symbol": "BTN",
-    "name": "Bhutanese ngultrum",
-    "countryKeywords": [
-      "BT",
-      "Bhutan",
-      "BTN",
-      "btn"
-    ],
-    "supportsDecimals": true
+    "symbol": "Nu.",
+    "name": "Bhutanese Ngultrum",
+    "flag": "🇧🇹"
   },
   {
     "code": "BWP",
-    "symbol": "BWP",
-    "name": "Botswana pula",
-    "countryKeywords": [
-      "BW",
-      "Botswana",
-      "BWP",
-      "bwa"
-    ],
-    "supportsDecimals": true
+    "symbol": "P",
+    "name": "Botswanan Pula",
+    "flag": "🇧🇼"
   },
   {
     "code": "BYN",
-    "symbol": "BYN",
-    "name": "Belarusian ruble",
-    "countryKeywords": [
-      "BYN",
-      "BY",
-      "blr",
-      "Belarus"
-    ],
-    "supportsDecimals": true
+    "symbol": "Br",
+    "name": "New Belarusian Ruble",
+    "flag": "🇧🇾"
+  },
+  {
+    "code": "BYR",
+    "symbol": "Br",
+    "name": "Belarusian Ruble",
+    "flag": ""
   },
   {
     "code": "BZD",
-    "symbol": "BZ$",
-    "name": "Belizean dollar",
-    "countryKeywords": [
-      "blz",
-      "BZ",
-      "Belize",
-      "BZD"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Belize Dollar",
+    "flag": "🇧🇿"
   },
   {
     "code": "CAD",
-    "symbol": "C$",
-    "name": "Canadian dollar",
-    "countryKeywords": [
-      "can",
-      "Canada",
-      "CAD",
-      "CA"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Canadian Dollar",
+    "flag": "🇨🇦"
   },
   {
     "code": "CDF",
-    "symbol": "CDF",
-    "name": "Congolese franc",
-    "countryKeywords": [
-      "CD",
-      "CDF",
-      "cod",
-      "Congo, the Democratic Republic of the"
-    ],
-    "supportsDecimals": true
+    "symbol": "FC",
+    "name": "Congolese Franc",
+    "flag": "🇨🇩"
   },
   {
     "code": "CHF",
-    "symbol": "SFr.",
-    "name": "Swiss franc",
-    "countryKeywords": [
-      "CHF",
-      "che",
-      "CH",
-      "Liechtenstein",
-      "lie",
-      "LI",
-      "Switzerland"
-    ],
-    "supportsDecimals": true
+    "symbol": "fr.",
+    "name": "Swiss Franc",
+    "flag": "🇨🇭"
+  },
+  {
+    "code": "CLF",
+    "symbol": "UF",
+    "name": "Chilean Unit of Account (UF)",
+    "flag": ""
   },
   {
     "code": "CLP",
     "symbol": "$",
-    "name": "Chilean peso",
-    "countryKeywords": [
-      "CLP",
-      "chl",
-      "CL",
-      "Chile"
-    ],
-    "supportsDecimals": false
+    "name": "Chilean Peso",
+    "flag": "🇨🇱"
   },
   {
     "code": "CNY",
     "symbol": "¥",
-    "name": "Chinese yuan",
-    "countryKeywords": [
-      "China",
-      "chn",
-      "CN",
-      "CNY"
-    ],
-    "supportsDecimals": true
+    "name": "Chinese Yuan",
+    "flag": "🇨🇳"
   },
   {
     "code": "COP",
     "symbol": "$",
-    "name": "Colombian peso",
-    "countryKeywords": [
-      "col",
-      "Colombia",
-      "COP",
-      "CO"
-    ],
-    "supportsDecimals": true
+    "name": "Colombian Peso",
+    "flag": "🇨🇴"
   },
   {
     "code": "CRC",
     "symbol": "₡",
-    "name": "Costa Rican colón",
-    "countryKeywords": [
-      "CRC",
-      "cri",
-      "CR",
-      "Costa Rica"
-    ],
-    "supportsDecimals": true
+    "name": "Costa Rican Colón",
+    "flag": "🇨🇷"
   },
   {
     "code": "CUC",
-    "symbol": "CUC$",
-    "name": "Cuban Convertible peso",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Cuban Convertible Peso",
+    "flag": ""
   },
   {
     "code": "CUP",
-    "symbol": "CUP",
-    "name": "Cuban peso",
-    "countryKeywords": [
-      "cub",
-      "Cuba",
-      "CU",
-      "CUP"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Cuban Peso",
+    "flag": "🇨🇺"
   },
   {
     "code": "CVE",
-    "symbol": "CVE",
-    "name": "Cape Verdean escudo",
-    "countryKeywords": [
-      "Cape Verde",
-      "CVE",
-      "CV",
-      "cpv"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Cape Verdean Escudo",
+    "flag": "🇨🇻"
   },
   {
     "code": "CZK",
-    "symbol": "Kč",
-    "name": "Czech koruna",
-    "countryKeywords": [
-      "Czech Republic",
-      "CZK",
-      "CZ",
-      "cze"
-    ],
-    "supportsDecimals": true
+    "symbol": "h",
+    "name": "Czech Republic Koruna",
+    "flag": "🇨🇿"
   },
   {
     "code": "DJF",
-    "symbol": "DJF",
-    "name": "Djiboutian franc",
-    "countryKeywords": [
-      "Djibouti",
-      "DJF",
-      "dji",
-      "DJ"
-    ],
-    "supportsDecimals": false
+    "symbol": "Fdj",
+    "name": "Djiboutian Franc",
+    "flag": "🇩🇯"
   },
   {
     "code": "DKK",
     "symbol": "kr",
-    "name": "Danish krone",
-    "countryKeywords": [
-      "grl",
-      "dnk",
-      "fro",
-      "DKK",
-      "GL",
-      "Faroe Islands",
-      "DK",
-      "Denmark",
-      "FO",
-      "Greenland"
-    ],
-    "supportsDecimals": true
+    "name": "Danish Krone",
+    "flag": "🇩🇰"
   },
   {
     "code": "DOP",
     "symbol": "$",
-    "name": "Dominican peso",
-    "countryKeywords": [
-      "dom",
-      "DOP",
-      "Dominican Republic",
-      "DO"
-    ],
-    "supportsDecimals": true
+    "name": "Dominican Peso",
+    "flag": "🇩🇴"
   },
   {
     "code": "DZD",
-    "symbol": "DZD",
-    "name": "Algerian dinar",
-    "countryKeywords": [
-      "DZ",
-      "dza",
-      "Algeria",
-      "DZD"
-    ],
-    "supportsDecimals": true
+    "symbol": "دج",
+    "name": "Algerian Dinar",
+    "flag": "🇩🇿"
   },
   {
     "code": "EGP",
-    "symbol": "E£",
-    "name": "Egyptian pound",
-    "countryKeywords": [
-      "EG",
-      "egy",
-      "Egypt",
-      "EGP"
-    ],
-    "supportsDecimals": true
+    "symbol": "pt",
+    "name": "Egyptian Pound",
+    "flag": "🇪🇬"
   },
   {
     "code": "ERN",
-    "symbol": "ERN",
-    "name": "Eritrean nakfa",
-    "countryKeywords": [
-      "ERN",
-      "Eritrea",
-      "ER",
-      "eri"
-    ],
-    "supportsDecimals": true
+    "symbol": "Nfk",
+    "name": "Eritrean Nakfa",
+    "flag": "🇪🇷"
   },
   {
     "code": "ETB",
     "symbol": "Br",
-    "name": "Ethiopian birr",
-    "countryKeywords": [
-      "ETB",
-      "eth",
-      "Ethiopia",
-      "ET"
-    ],
-    "supportsDecimals": true
+    "name": "Ethiopian Birr",
+    "flag": "🇪🇹"
   },
   {
     "code": "EUR",
     "symbol": "€",
     "name": "Euro",
-    "countryKeywords": [
-      "Cambodia",
-      "cck",
-      "fin",
-      "Paraguay",
-      "uga",
-      "lux",
-      "iot",
-      "Solomon Islands",
-      "Montserrat",
-      "deu",
-      "Guadeloupe",
-      "egy",
-      "lva",
-      "hnd",
-      "nzl",
-      "AD",
-      "Falkland Islands",
-      "AE",
-      "fji",
-      "AG",
-      "Seychelles",
-      "AI",
-      "glp",
-      "AL",
-      "AM",
-      "Bahrain",
-      "AO",
-      "wlf",
-      "AR",
-      "AS",
-      "AT",
-      "AU",
-      "AW",
-      "Faroe Islands",
-      "AX",
-      "Finland",
-      "AZ",
-      "gmb",
-      "BA",
-      "BB",
-      "BD",
-      "BE",
-      "BF",
-      "BG",
-      "mys",
-      "BH",
-      "BJ",
-      "myt",
-      "BL",
-      "BM",
-      "BN",
-      "BO",
-      "BS",
-      "BT",
-      "Cocos (Keeling) Islands",
-      "BW",
-      "Liechtenstein",
-      "gnb",
-      "Bulgaria",
-      "sen",
-      "CA",
-      "CC",
-      "irl",
-      "flk",
-      "CH",
-      "qat",
-      "CI",
-      "CK",
-      "CL",
-      "United Arab Emirates",
-      "CN",
-      "tha",
-      "Kenya",
-      "CR",
-      "French Polynesia",
-      "Saint Lucia",
-      "CV",
-      "CX",
-      "CY",
-      "CZ",
-      "abw",
-      "Mayotte",
-      "San Marino",
-      "Israel",
-      "Tajikistan",
-      "DE",
-      "Gibraltar",
-      "isl",
-      "Cyprus",
-      "DK",
-      "bel",
-      "DM",
-      "kwt",
-      "isr",
-      "Malaysia",
-      "ben",
-      "DO",
-      "Armenia",
-      "DZ",
-      "ita",
-      "Turks and Caicos Islands",
-      "bfa",
-      "pan",
-      "ukr",
-      "sgp",
-      "EC",
-      "EE",
-      "che",
-      "Ecuador",
-      "EG",
-      "reu",
-      "chl",
-      "chn",
-      "hrv",
-      "ES",
-      "ET",
-      "vnm",
-      "tjk",
-      "shn",
-      "Italy",
-      "bgd",
-      "Haiti",
-      "FI",
-      "FJ",
-      "FK",
-      "FM",
-      "FO",
-      "American Samoa",
-      "bgr",
-      "FR",
-      "Vatican City",
-      "civ",
-      "grd",
-      "grc",
-      "GA",
-      "GB",
-      "hti",
-      "GD",
-      "Kyrgyzstan",
-      "GE",
-      "GF",
-      "grl",
-      "GG",
-      "GH",
-      "GI",
-      "GL",
-      "GM",
-      "GN",
-      "Uzbekistan",
-      "GP",
-      "GR",
-      "bhs",
-      "GT",
-      "bhr",
-      "GW",
-      "GY",
-      "dma",
-      "tls",
-      "Dominica",
-      "hun",
-      "bih",
-      "Benin",
-      "HK",
-      "HN",
-      "ago",
-      "HR",
-      "HT",
-      "HU",
-      "Portugal",
-      "Grenada",
-      "wsm",
-      "Mongolia",
-      "Latvia",
-      "fra",
-      "Morocco",
-      "Guatemala",
-      "nam",
-      "ID",
-      "IE",
-      "per",
-      "dnk",
-      "gtm",
-      "fro",
-      "IL",
-      "IM",
-      "IN",
-      "IO",
-      "Tanzania",
-      "slb",
-      "Ghana",
-      "IS",
-      "IT",
-      "sle",
-      "India",
-      "Canada",
-      "Maldives",
-      "Kosovo, Republic of",
-      "Taiwan",
-      "aia",
-      "guf",
-      "JE",
-      "slv",
-      "Germany",
-      "fsm",
-      "dom",
-      "JM",
-      "Fiji",
-      "Guinea",
-      "United States",
-      "JP",
-      "Micronesia, Federated States of",
-      "Sao Tome and Principe",
-      "guy",
-      "mac",
-      "Costa Rica",
-      "Vietnam",
-      "ton",
-      "maf",
-      "ncl",
-      "smr",
-      "KE",
-      "KG",
-      "KH",
-      "mar",
-      "blm",
-      "KN",
-      "Timor-Leste",
-      "KR",
-      "KW",
-      "Switzerland",
-      "KY",
-      "Samoa",
-      "Spain",
-      "KZ",
-      "phl",
-      "LA",
-      "LB",
-      "LC",
-      "Palau",
-      "ury",
-      "LI",
-      "cok",
-      "Estonia",
-      "LK",
-      "usa",
-      "esp",
-      "LR",
-      "est",
-      "LS",
-      "LT",
-      "LU",
-      "LV",
-      "bmu",
-      "Niue",
-      "Mozambique",
-      "El Salvador",
-      "vut",
-      "MA",
-      "alb",
-      "MC",
-      "ala",
-      "MD",
-      "ME",
-      "eth",
-      "mco",
-      "MF",
-      "ner",
-      "MH",
-      "lao",
-      "Lesotho",
-      "Tonga",
-      "MK",
-      "ML",
-      "MM",
-      "MN",
-      "MO",
-      "EUR",
-      "MQ",
-      "MR",
-      "MS",
-      "MT",
-      "MU",
-      "cpv",
-      "MV",
-      "MW",
-      "MX",
-      "mda",
-      "MY",
-      "Mauritius",
-      "MZ",
-      "Norfolk Island",
-      "spm",
-      "nfk",
-      "NA",
-      "NC",
-      "NE",
-      "NF",
-      "lbn",
-      "NI",
-      "lbr",
-      "NL",
-      "mdv",
-      "bol",
-      "NO",
-      "NP",
-      "NR",
-      "NU",
-      "lca",
-      "NZ",
-      "Malta",
-      "Cape Verde",
-      "Ireland",
-      "and",
-      "rou",
-      "cri",
-      "Lithuania",
-      "France",
-      "OM",
-      "mex",
-      "srb",
-      "kaz",
-      "tto",
-      "PA",
-      "Nicaragua",
-      "Norway",
-      "PE",
-      "PF",
-      "PG",
-      "Macao",
-      "PH",
-      "Côte dIvoire",
-      "Mexico",
-      "Uganda",
-      "plw",
-      "Suriname",
-      "PL",
-      "PM",
-      "Greenland",
-      "Saint Helena",
-      "Papua New Guinea",
-      "PT",
-      "PW",
-      "PY",
-      "nic",
-      "tun",
-      "Kazakhstan",
-      "Åland Islands",
-      "Bahamas",
-      "tur",
-      "QA",
-      "brb",
-      "tuv",
-      "Marshall Islands",
-      "Mali",
-      "Panama",
-      "jam",
-      "niu",
-      "Laos",
-      "zaf",
-      "brn",
-      "Argentina",
-      "png",
-      "Zambia",
-      "stp",
-      "mhl",
-      "Guinea-Bissau",
-      "RE",
-      "Namibia",
-      "Macedonia, Former Yugoslav Republic of",
-      "Georgia",
-      "Saint Kitts and Nevis",
-      "RO",
-      "RS",
-      "RW",
-      "twn",
-      "Aruba",
-      "pol",
-      "SA",
-      "SB",
-      "SC",
-      "sur",
-      "omn",
-      "SE",
-      "Sweden",
-      "SG",
-      "Malawi",
-      "are",
-      "SH",
-      "ken",
-      "SI",
-      "Andorra",
-      "arg",
-      "Poland",
-      "SK",
-      "SL",
-      "SM",
-      "SN",
-      "uzb",
-      "btn",
-      "arm",
-      "Tunisia",
-      "SR",
-      "ST",
-      "SV",
-      "nld",
-      "svk",
-      "svn",
-      "Tuvalu",
-      "TC",
-      "Lebanon",
-      "Azerbaijan",
-      "TF",
-      "Czech Republic",
-      "Mauritania",
-      "TH",
-      "Guernsey",
-      "TJ",
-      "TL",
-      "TN",
-      "asm",
-      "TO",
-      "Australia",
-      "TR",
-      "TT",
-      "swe",
-      "Myanmar",
-      "TV",
-      "TW",
-      "TZ",
-      "mkd",
-      "lie",
-      "dza",
-      "UA",
-      "Oman",
-      "Iceland",
-      "Gabon",
-      "atf",
-      "UG",
-      "atg",
-      "Luxembourg",
-      "Algeria",
-      "tza",
-      "Jersey",
-      "Slovenia",
-      "cxr",
-      "US",
-      "jey",
-      "kgz",
-      "Antigua and Barbuda",
-      "UY",
-      "UZ",
-      "Moldova",
-      "mli",
-      "VA",
-      "bwa",
-      "VC",
-      "VG",
-      "khm",
-      "Vanuatu",
-      "idn",
-      "prt",
-      "mlt",
-      "pry",
-      "cym",
-      "VN",
-      "Honduras",
-      "cyp",
-      "syc",
-      "Nauru",
-      "rwa",
-      "aus",
-      "VU",
-      "aut",
-      "lka",
-      "Singapore",
-      "French Guiana",
-      "Christmas Island",
-      "gab",
-      "cze",
-      "WF",
-      "nor",
-      "Netherlands",
-      "mmr",
-      "China",
-      "Martinique",
-      "Saint Pierre and Miquelon",
-      "WS",
-      "Bhutan",
-      "Romania",
-      "mne",
-      "Philippines",
-      "mng",
-      "npl",
-      "XK",
-      "gbr",
-      "British Virgin Islands",
-      "British Indian Ocean Territory",
-      "Montenegro",
-      "Indonesia",
-      "Angola",
-      "Brunei Darussalam",
-      "New Caledonia",
-      "Cayman Islands",
-      "Greece",
-      "Guyana",
-      "moz",
-      "YT",
-      "Chile",
-      "Nepal",
-      "Isle of Man",
-      "Ukraine",
-      "ZA",
-      "vat",
-      "Anguilla",
-      "nru",
-      "ZM",
-      "Turkey",
-      "Belgium",
-      "Trinidad and Tobago",
-      "South Africa",
-      "Bermuda",
-      "Jamaica",
-      "Peru",
-      "Hong Kong",
-      "Thailand",
-      "aze",
-      "geo",
-      "Saint Martin (French part)",
-      "Kuwait",
-      "kna",
-      "Croatia",
-      "Cook Islands",
-      "Uruguay",
-      "Sri Lanka",
-      "vct",
-      "United Kingdom",
-      "mrt",
-      "Liberia",
-      "Burkina Faso",
-      "Saint Barthélemy",
-      "pyf",
-      "msr",
-      "Wallis and Futuna",
-      "zmb",
-      "kor",
-      "South Korea",
-      "Austria",
-      "Monaco",
-      "ecu",
-      "ggy",
-      "gha",
-      "Hungary",
-      "Réunion",
-      "Japan",
-      "mtq",
-      "Albania",
-      "New Zealand",
-      "Senegal",
-      "Ethiopia",
-      "gib",
-      "hkg",
-      "Egypt",
-      "lso",
-      "Sierra Leone",
-      "mus",
-      "imn",
-      "Bolivia",
-      "gin",
-      "Saudi Arabia",
-      "vgb",
-      "can",
-      "tca",
-      "Gambia",
-      "Qatar",
-      "Slovakia",
-      "Serbia",
-      "Bosnia and Herzegovina",
-      "ind",
-      "xkx",
-      "Niger",
-      "sau",
-      "Rwanda",
-      "jpn",
-      "French Southern Territories",
-      "ltu",
-      "Bangladesh",
-      "Barbados",
-      "Botswana",
-      "Saint Vincent and the Grenadines",
-      "Dominican Republic",
-      "Denmark",
-      "mwi"
-    ],
-    "supportsDecimals": true
+    "flag": "🇪🇺"
   },
   {
     "code": "FJD",
-    "symbol": "FJD",
-    "name": "Fijian dollar",
-    "countryKeywords": [
-      "FJD",
-      "Fiji",
-      "FJ",
-      "fji"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Fijian Dollar",
+    "flag": "🇫🇯"
   },
   {
     "code": "FKP",
     "symbol": "£",
-    "name": "Falkland Islands pound",
-    "countryKeywords": [
-      "flk",
-      "Falkland Islands",
-      "FK",
-      "FKP"
-    ],
-    "supportsDecimals": true
+    "name": "Falkland Islands Pound",
+    "flag": "🇫🇰"
   },
   {
     "code": "GBP",
     "symbol": "£",
-    "name": "British pound",
-    "countryKeywords": [
-      "PT",
-      "fin",
-      "tun",
-      "Kazakhstan",
-      "lux",
-      "tur",
-      "QA",
-      "deu",
-      "lva",
-      "AD",
-      "AE",
-      "Seychelles",
-      "AL",
-      "Bahrain",
-      "stp",
-      "AT",
-      "Macedonia, Former Yugoslav Republic of",
-      "Finland",
-      "Faroe Islands",
-      "AZ",
-      "Georgia",
-      "RO",
-      "BA",
-      "RS",
-      "BE",
-      "BG",
-      "BH",
-      "pol",
-      "SA",
-      "SC",
-      "SE",
-      "Sweden",
-      "are",
-      "Andorra",
-      "SI",
-      "Liechtenstein",
-      "SK",
-      "Poland",
-      "SM",
-      "Bulgaria",
-      "Tunisia",
-      "ST",
-      "irl",
-      "CH",
-      "qat",
-      "nld",
-      "svk",
-      "svn",
-      "United Arab Emirates",
-      "CR",
-      "Lebanon",
-      "Azerbaijan",
-      "Czech Republic",
-      "Saint Lucia",
-      "Mauritania",
-      "Guernsey",
-      "CY",
-      "CZ",
-      "TL",
-      "TN",
-      "San Marino",
-      "Israel",
-      "TR",
-      "swe",
-      "DE",
-      "isl",
-      "Gibraltar",
-      "Cyprus",
-      "DK",
-      "mkd",
-      "bel",
-      "lie",
-      "kwt",
-      "isr",
-      "DO",
-      "UA",
-      "Iceland",
-      "Luxembourg",
-      "ita",
-      "Jersey",
-      "Slovenia",
-      "ukr",
-      "jey",
-      "EE",
-      "che",
-      "Moldova",
-      "hrv",
-      "ES",
-      "VG",
-      "prt",
-      "mlt",
-      "Italy",
-      "cyp",
-      "syc",
-      "aut",
-      "FI",
-      "FO",
-      "FR",
-      "bgr",
-      "cze",
-      "nor",
-      "Netherlands",
-      "GBP",
-      "grc",
-      "GB",
-      "GE",
-      "grl",
-      "GG",
-      "GI",
-      "Romania",
-      "GL",
-      "mne",
-      "GR",
-      "GT",
-      "bhr",
-      "gbr",
-      "British Virgin Islands",
-      "tls",
-      "Montenegro",
-      "hun",
-      "bih",
-      "HR",
-      "HU",
-      "Portugal",
-      "Greece",
-      "Latvia",
-      "fra",
-      "Guatemala",
-      "IE",
-      "dnk",
-      "gtm",
-      "fro",
-      "IL",
-      "IM",
-      "Isle of Man",
-      "Ukraine",
-      "IS",
-      "IT",
-      "Turkey",
-      "Belgium",
-      "JE",
-      "Germany",
-      "dom",
-      "Sao Tome and Principe",
-      "aze",
-      "Costa Rica",
-      "geo",
-      "smr",
-      "Kuwait",
-      "Croatia",
-      "Timor-Leste",
-      "United Kingdom",
-      "KW",
-      "Switzerland",
-      "mrt",
-      "Spain",
-      "KZ",
-      "LB",
-      "LC",
-      "LI",
-      "Estonia",
-      "esp",
-      "est",
-      "LT",
-      "LU",
-      "LV",
-      "Austria",
-      "Monaco",
-      "alb",
-      "MC",
-      "MD",
-      "ME",
-      "ggy",
-      "mco",
-      "MK",
-      "Hungary",
-      "MR",
-      "MT",
-      "MU",
-      "mda",
-      "Mauritius",
-      "Albania",
-      "lbn",
-      "NL",
-      "NO",
-      "gib",
-      "mus",
-      "imn",
-      "lca",
-      "Malta",
-      "Saudi Arabia",
-      "vgb",
-      "and",
-      "Ireland",
-      "Qatar",
-      "rou",
-      "cri",
-      "Slovakia",
-      "France",
-      "Serbia",
-      "Lithuania",
-      "Bosnia and Herzegovina",
-      "srb",
-      "kaz",
-      "sau",
-      "ltu",
-      "Norway",
-      "Dominican Republic",
-      "Denmark",
-      "PL",
-      "Greenland"
-    ],
-    "supportsDecimals": true
+    "name": "British Pound Sterling",
+    "flag": "🇬🇧"
   },
   {
     "code": "GEL",
-    "symbol": "GEL",
-    "name": "Georgian lari",
-    "countryKeywords": [
-      "geo",
-      "Georgia",
-      "GE",
-      "GEL"
-    ],
-    "supportsDecimals": true
+    "symbol": "ლ",
+    "name": "Georgian Lari",
+    "flag": "🇬🇪"
   },
   {
     "code": "GGP",
     "symbol": "£",
-    "name": "Guernsey pound",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "name": "Guernsey Pound",
+    "flag": "🇬🇬"
   },
   {
     "code": "GHS",
-    "symbol": "GH¢",
-    "name": "Ghanaian cedi",
-    "countryKeywords": [
-      "GH",
-      "gha",
-      "GHS",
-      "Ghana"
-    ],
-    "supportsDecimals": true
+    "symbol": "GH₵",
+    "name": "Ghanaian Cedi",
+    "flag": "🇬🇭"
   },
   {
     "code": "GIP",
     "symbol": "£",
-    "name": "Gibraltar pound",
-    "countryKeywords": [
-      "gib",
-      "GI",
-      "Gibraltar",
-      "GIP"
-    ],
-    "supportsDecimals": true
+    "name": "Gibraltar Pound",
+    "flag": "🇬🇮"
   },
   {
     "code": "GMD",
-    "symbol": "GMD",
-    "name": "Gambian dalasi",
-    "countryKeywords": [
-      "Gambia",
-      "GM",
-      "gmb",
-      "GMD"
-    ],
-    "supportsDecimals": true
+    "symbol": "D",
+    "name": "Gambian Dalasi",
+    "flag": "🇬🇲"
   },
   {
     "code": "GNF",
-    "symbol": "GNF",
-    "name": "Guinean franc",
-    "countryKeywords": [
-      "Guinea",
-      "GN",
-      "gin",
-      "GNF"
-    ],
-    "supportsDecimals": false
+    "symbol": "FG",
+    "name": "Guinean Franc",
+    "flag": "🇬🇳"
   },
   {
     "code": "GTQ",
     "symbol": "Q",
-    "name": "Guatemalan quetzal",
-    "countryKeywords": [
-      "gtm",
-      "GTQ",
-      "Guatemala",
-      "GT"
-    ],
-    "supportsDecimals": true
+    "name": "Guatemalan Quetzal",
+    "flag": "🇬🇹"
   },
   {
     "code": "GYD",
-    "symbol": "GYD",
-    "name": "Guyanese dollar",
-    "countryKeywords": [
-      "GY",
-      "GYD",
-      "Guyana",
-      "guy"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Guyanaese Dollar",
+    "flag": "🇬🇾"
   },
   {
     "code": "HKD",
     "symbol": "$",
-    "name": "Hong Kong dollar",
-    "countryKeywords": [
-      "HKD",
-      "HK",
-      "Hong Kong",
-      "hkg"
-    ],
-    "supportsDecimals": true
+    "name": "Hong Kong Dollar",
+    "flag": "🇭🇰"
   },
   {
     "code": "HNL",
     "symbol": "L",
-    "name": "Honduran lempira",
-    "countryKeywords": [
-      "HN",
-      "HNL",
-      "Honduras",
-      "hnd"
-    ],
-    "supportsDecimals": true
+    "name": "Honduran Lempira",
+    "flag": "🇭🇳"
   },
   {
     "code": "HRK",
-    "symbol": "kn",
-    "name": "Croatian kuna",
-    "countryKeywords": [
-      "HRK",
-      "HR",
-      "hrv",
-      "Croatia"
-    ],
-    "supportsDecimals": true
+    "symbol": "lp",
+    "name": "Croatian Kuna",
+    "flag": "🇭🇷"
   },
   {
     "code": "HTG",
-    "symbol": "HTG",
-    "name": "Haitian gourde",
-    "countryKeywords": [
-      "Haiti",
-      "HTG",
-      "HT",
-      "hti"
-    ],
-    "supportsDecimals": true
+    "symbol": "G",
+    "name": "Haitian Gourde",
+    "flag": "🇭🇹"
   },
   {
     "code": "HUF",
     "symbol": "Ft",
-    "name": "Hungarian forint",
-    "countryKeywords": [
-      "hun",
-      "Hungary",
-      "HUF",
-      "HU"
-    ],
-    "supportsDecimals": false
+    "name": "Hungarian Forint",
+    "flag": "🇭🇺"
   },
   {
     "code": "IDR",
     "symbol": "Rp",
-    "name": "Indonesian rupiah",
-    "countryKeywords": [
-      "idn",
-      "IDR",
-      "ID",
-      "Indonesia"
-    ],
-    "supportsDecimals": false
+    "name": "Indonesian Rupiah",
+    "flag": "🇮🇩"
   },
   {
     "code": "ILS",
     "symbol": "₪",
-    "name": "Israeli shekel",
-    "countryKeywords": [
-      "ILS",
-      "IL",
-      "isr",
-      "Israel"
-    ],
-    "supportsDecimals": true
+    "name": "Israeli New Sheqel",
+    "flag": "🇮🇱"
   },
   {
     "code": "IMP",
     "symbol": "£",
-    "name": "Isle of Man pound",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "name": "Manx pound",
+    "flag": "🇮🇲"
   },
   {
     "code": "INR",
     "symbol": "₹",
-    "name": "Indian rupee",
-    "countryKeywords": [
-      "IN",
-      "INR",
-      "ind",
-      "India"
-    ],
-    "supportsDecimals": true
+    "name": "Indian Rupee",
+    "flag": "🇮🇳"
   },
   {
     "code": "IQD",
-    "symbol": "IQD",
-    "name": "Iraqi dinar",
-    "countryKeywords": [
-      "IQ",
-      "irq",
-      "Iraq",
-      "IQD"
-    ],
-    "supportsDecimals": true
+    "symbol": "د.ع",
+    "name": "Iraqi Dinar",
+    "flag": "🇮🇶"
   },
   {
     "code": "IRR",
     "symbol": "﷼",
-    "name": "Iranian rial",
-    "countryKeywords": [
-      "irn",
-      "Iran",
-      "IRR",
-      "IR"
-    ],
-    "supportsDecimals": true
+    "name": "Iranian Rial",
+    "flag": "🇮🇷"
   },
   {
     "code": "ISK",
     "symbol": "kr",
-    "name": "Icelandic króna",
-    "countryKeywords": [
-      "ISK",
-      "isl",
-      "IS",
-      "Iceland"
-    ],
-    "supportsDecimals": false
+    "name": "Icelandic Króna",
+    "flag": "🇮🇸"
   },
   {
     "code": "JEP",
     "symbol": "£",
-    "name": "Jersey pound",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "name": "Jersey Pound",
+    "flag": "🇯🇪"
   },
   {
     "code": "JMD",
-    "symbol": "J$",
-    "name": "Jamaican dollar",
-    "countryKeywords": [
-      "JMD",
-      "JM",
-      "jam",
-      "Jamaica"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Jamaican Dollar",
+    "flag": "🇯🇲"
   },
   {
     "code": "JOD",
     "symbol": "JD",
-    "name": "Jordanian dinar",
-    "countryKeywords": [
-      "JO",
-      "jor",
-      "Jordan",
-      "JOD"
-    ],
-    "supportsDecimals": true
+    "name": "Jordanian Dinar",
+    "flag": "🇯🇴"
   },
   {
     "code": "JPY",
     "symbol": "¥",
-    "name": "Japanese yen",
-    "countryKeywords": [
-      "JPY",
-      "JP",
-      "Japan",
-      "jpn"
-    ],
-    "supportsDecimals": false
+    "name": "Japanese Yen",
+    "flag": "🇯🇵"
   },
   {
     "code": "KES",
     "symbol": "Ksh",
-    "name": "Kenyan shilling",
-    "countryKeywords": [
-      "ken",
-      "KES",
-      "KE",
-      "Kenya"
-    ],
-    "supportsDecimals": false
+    "name": "Kenyan Shilling",
+    "flag": "🇰🇪"
   },
   {
     "code": "KGS",
-    "symbol": "KGS",
-    "name": "Kyrgyzstani som",
-    "countryKeywords": [
-      "KGS",
-      "KG",
-      "Kyrgyzstan",
-      "kgz"
-    ],
-    "supportsDecimals": true
+    "symbol": "C",
+    "name": "Kyrgystani Som",
+    "flag": "🇰🇬"
   },
   {
     "code": "KHR",
     "symbol": "៛",
-    "name": "Cambodian riel",
-    "countryKeywords": [
-      "khm",
-      "KHR",
-      "Cambodia",
-      "KH"
-    ],
-    "supportsDecimals": true
+    "name": "Cambodian Riel",
+    "flag": "🇰🇭"
   },
   {
     "code": "KMF",
-    "symbol": "KMF",
-    "name": "Comorian franc",
-    "countryKeywords": [
-      "com",
-      "KM",
-      "KMF",
-      "Comoros"
-    ],
-    "supportsDecimals": false
+    "symbol": "CF",
+    "name": "Comorian Franc",
+    "flag": "🇰🇲"
   },
   {
     "code": "KPW",
-    "symbol": "KPW",
-    "name": "North Korean won",
-    "countryKeywords": [
-      "KPW",
-      "KP",
-      "prk",
-      "Korea, Democratic Peoples Republic of"
-    ],
-    "supportsDecimals": true
+    "symbol": "₩",
+    "name": "North Korean Won",
+    "flag": "🇰🇵"
   },
   {
     "code": "KRW",
     "symbol": "₩",
-    "name": "South Korean won",
-    "countryKeywords": [
-      "KRW",
-      "South Korea",
-      "KR",
-      "kor"
-    ],
-    "supportsDecimals": false
+    "name": "South Korean Won",
+    "flag": "🇰🇷"
   },
   {
     "code": "KWD",
-    "symbol": "ك",
-    "name": "Kuwaiti dinar",
-    "countryKeywords": [
-      "KWD",
-      "kwt",
-      "KW",
-      "Kuwait"
-    ],
-    "supportsDecimals": true
+    "symbol": "د.ك",
+    "name": "Kuwaiti Dinar",
+    "flag": "🇰🇼"
   },
   {
     "code": "KYD",
     "symbol": "$",
-    "name": "Cayman Islands dollar",
-    "countryKeywords": [
-      "Cayman Islands",
-      "cym",
-      "KYD",
-      "KY"
-    ],
-    "supportsDecimals": true
+    "name": "Cayman Islands Dollar",
+    "flag": "🇰🇾"
   },
   {
     "code": "KZT",
     "symbol": "₸",
-    "name": "Kazakhstani tenge",
-    "countryKeywords": [
-      "KZT",
-      "kaz",
-      "Kazakhstan",
-      "KZ"
-    ],
-    "supportsDecimals": true
+    "name": "Kazakhstani Tenge",
+    "flag": "🇰🇿"
   },
   {
     "code": "LAK",
-    "symbol": "LAK",
-    "name": "Lao kip",
-    "countryKeywords": [
-      "LA",
-      "LAK",
-      "lao",
-      "Laos"
-    ],
-    "supportsDecimals": true
+    "symbol": "₭",
+    "name": "Laotian Kip",
+    "flag": "🇱🇦"
   },
   {
     "code": "LBP",
-    "symbol": "LBP",
-    "name": "Lebanon Pound",
-    "countryKeywords": [
-      "Lebanon",
-      "LB",
-      "lbn",
-      "LBP"
-    ],
-    "supportsDecimals": true
+    "symbol": "LL",
+    "name": "Lebanese Pound",
+    "flag": "🇱🇧"
   },
   {
     "code": "LKR",
-    "symbol": "Sr",
-    "name": "Sri Lankan rupee",
-    "countryKeywords": [
-      "LKR",
-      "lka",
-      "Sri Lanka",
-      "LK"
-    ],
-    "supportsDecimals": true
+    "symbol": "₨",
+    "name": "Sri Lankan Rupee",
+    "flag": "🇱🇰"
   },
   {
     "code": "LRD",
-    "symbol": "L$",
-    "name": "Liberian dollar",
-    "countryKeywords": [
-      "Liberia",
-      "LR",
-      "lbr",
-      "LRD"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Liberian Dollar",
+    "flag": "🇱🇷"
   },
   {
     "code": "LSL",
-    "symbol": "LSL",
-    "name": "Lesotho loti",
-    "countryKeywords": [
-      "LSL",
-      "LS",
-      "lso",
-      "Lesotho"
-    ],
-    "supportsDecimals": true
+    "symbol": "M",
+    "name": "Lesotho Loti",
+    "flag": "🇱🇸"
+  },
+  {
+    "code": "LTL",
+    "symbol": "Lt",
+    "name": "Lithuanian Litas",
+    "flag": "🇱🇹"
+  },
+  {
+    "code": "LVL",
+    "symbol": "Ls",
+    "name": "Latvian Lats",
+    "flag": "🇱🇻"
   },
   {
     "code": "LYD",
-    "symbol": "LYD",
-    "name": "Libyan dinar",
-    "countryKeywords": [
-      "lby",
-      "LYD",
-      "LY",
-      "Libya"
-    ],
-    "supportsDecimals": true
+    "symbol": "ل.د",
+    "name": "Libyan Dinar",
+    "flag": "🇱🇾"
   },
   {
     "code": "MAD",
     "symbol": "د.م.",
-    "name": "Moroccan dirham",
-    "countryKeywords": [
-      "MAD",
-      "Western Sahara",
-      "EH",
-      "MA",
-      "Morocco",
-      "esh",
-      "mar"
-    ],
-    "supportsDecimals": true
+    "name": "Moroccan Dirham",
+    "flag": "🇲🇦"
   },
   {
     "code": "MDL",
-    "symbol": "MDL",
-    "name": "Moldovan leu",
-    "countryKeywords": [
-      "MDL",
-      "MD",
-      "Moldova",
-      "mda"
-    ],
-    "supportsDecimals": true
+    "symbol": "L",
+    "name": "Moldovan Leu",
+    "flag": "🇲🇩"
   },
   {
     "code": "MGA",
-    "symbol": "MGA",
-    "name": "Malagasy ariary",
-    "countryKeywords": [
-      "mdg",
-      "MGA",
-      "MG",
-      "Madagascar"
-    ],
-    "supportsDecimals": true
+    "symbol": "Ar",
+    "name": "Malagasy Ariary",
+    "flag": "🇲🇬"
   },
   {
     "code": "MKD",
     "symbol": "ден",
-    "name": "Macedonian denar",
-    "countryKeywords": [
-      "Macedonia, Former Yugoslav Republic of",
-      "MKD",
-      "mkd",
-      "MK"
-    ],
-    "supportsDecimals": true
+    "name": "Macedonian Denar",
+    "flag": "🇲🇰"
   },
   {
     "code": "MMK",
     "symbol": "K",
-    "name": "Myanmar kyat",
-    "countryKeywords": [
-      "MM",
-      "Myanmar",
-      "mmr",
-      "MMK"
-    ],
-    "supportsDecimals": true
+    "name": "Myanma Kyat",
+    "flag": "🇲🇲"
   },
   {
     "code": "MNT",
-    "symbol": "MNT",
-    "name": "Mongolian tugrik",
-    "countryKeywords": [
-      "MN",
-      "MNT",
-      "Mongolia",
-      "mng"
-    ],
-    "supportsDecimals": true
+    "symbol": "₮",
+    "name": "Mongolian Tugrik",
+    "flag": "🇲🇳"
   },
   {
     "code": "MOP",
-    "symbol": "MOP",
-    "name": "Macanese pataca",
-    "countryKeywords": [
-      "MO",
-      "Macao",
-      "mac",
-      "MOP"
-    ],
-    "supportsDecimals": true
+    "symbol": "MOP$",
+    "name": "Macanese Pataca",
+    "flag": "🇲🇴"
   },
   {
-    "code": "MRU",
+    "code": "MRO",
     "symbol": "UM",
-    "name": "MRU",
-    "countryKeywords": [
-      "MRU",
-      "Mauritania",
-      "MR",
-      "mrt"
-    ],
-    "supportsDecimals": true
+    "name": "Mauritanian Ouguiya",
+    "flag": "🇲🇷"
   },
   {
     "code": "MUR",
     "symbol": "₨",
-    "name": "Mauritian rupee",
-    "countryKeywords": [
-      "MU",
-      "mus",
-      "MUR",
-      "Mauritius"
-    ],
-    "supportsDecimals": true
+    "name": "Mauritian Rupee",
+    "flag": "🇲🇺"
   },
   {
     "code": "MVR",
-    "symbol": "MVR",
-    "name": "Maldivian rufiyaa",
-    "countryKeywords": [
-      "Maldives",
-      "MVR",
-      "MV",
-      "mdv"
-    ],
-    "supportsDecimals": true
+    "symbol": "Rf.",
+    "name": "Maldivian Rufiyaa",
+    "flag": "🇲🇻"
   },
   {
     "code": "MWK",
-    "symbol": "MWK",
-    "name": "Malawian kwacha",
-    "countryKeywords": [
-      "MWK",
-      "Malawi",
-      "MW",
-      "mwi"
-    ],
-    "supportsDecimals": true
+    "symbol": "K",
+    "name": "Malawian Kwacha",
+    "flag": "🇲🇼"
   },
   {
     "code": "MXN",
-    "symbol": "Mex$",
-    "name": "Mexican peso",
-    "countryKeywords": [
-      "mex",
-      "MXN",
-      "Mexico",
-      "MX"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Mexican Peso",
+    "flag": "🇲🇽"
   },
   {
     "code": "MYR",
     "symbol": "RM",
-    "name": "Malaysian ringgit",
-    "countryKeywords": [
-      "mys",
-      "MYR",
-      "Malaysia",
-      "MY"
-    ],
-    "supportsDecimals": true
+    "name": "Malaysian Ringgit",
+    "flag": "🇲🇾"
   },
   {
     "code": "MZN",
     "symbol": "MT",
-    "name": "Mozambican metical",
-    "countryKeywords": [
-      "MZN",
-      "Mozambique",
-      "moz",
-      "MZ"
-    ],
-    "supportsDecimals": true
+    "name": "Mozambican Metical",
+    "flag": "🇲🇿"
   },
   {
     "code": "NAD",
     "symbol": "$",
-    "name": "Namibian dollar",
-    "countryKeywords": [
-      "NAD",
-      "NA",
-      "Namibia",
-      "nam"
-    ],
-    "supportsDecimals": true
+    "name": "Namibian Dollar",
+    "flag": "🇳🇦"
   },
   {
     "code": "NGN",
     "symbol": "₦",
-    "name": "Nigerian naira",
-    "countryKeywords": [
-      "NGN",
-      "NG",
-      "nga",
-      "Nigeria"
-    ],
-    "supportsDecimals": true
+    "name": "Nigerian Naira",
+    "flag": "🇳🇬"
   },
   {
     "code": "NIO",
-    "symbol": "NIO",
-    "name": "Nicaraguan córdoba",
-    "countryKeywords": [
-      "Nicaragua",
-      "NIO",
-      "nic",
-      "NI"
-    ],
-    "supportsDecimals": true
+    "symbol": "C$",
+    "name": "Nicaraguan Córdoba",
+    "flag": "🇳🇮"
   },
   {
     "code": "NOK",
     "symbol": "kr",
-    "name": "Norwegian krone",
-    "countryKeywords": [
-      "nor",
-      "NO",
-      "bvt",
-      "BV",
-      "Norway",
-      "SJ",
-      "sjm",
-      "NOK",
-      "Bouvet Island",
-      "Svalbard and Jan Mayen"
-    ],
-    "supportsDecimals": true
+    "name": "Norwegian Krone",
+    "flag": "🇳🇴"
   },
   {
     "code": "NPR",
     "symbol": "₨",
-    "name": "Nepalese rupee",
-    "countryKeywords": [
-      "NPR",
-      "NP",
-      "npl",
-      "Nepal"
-    ],
-    "supportsDecimals": false
+    "name": "Nepalese Rupee",
+    "flag": "🇳🇵"
   },
   {
     "code": "NZD",
     "symbol": "$",
-    "name": "New Zealand dollar",
-    "countryKeywords": [
-      "nzl",
-      "Tokelau",
-      "Cook Islands",
-      "NU",
-      "CK",
-      "Pitcairn Islands",
-      "NZ",
-      "Niue",
-      "New Zealand",
-      "tkl",
-      "TK",
-      "NZD",
-      "pcn",
-      "niu",
-      "cok",
-      "PN"
-    ],
-    "supportsDecimals": true
+    "name": "New Zealand Dollar",
+    "flag": "🇳🇿"
   },
   {
     "code": "OMR",
-    "symbol": "OMR",
-    "name": "Omani rial",
-    "countryKeywords": [
-      "omn",
-      "OMR",
-      "OM",
-      "Oman"
-    ],
-    "supportsDecimals": true
+    "symbol": "ر.ع.",
+    "name": "Omani Rial",
+    "flag": "🇴🇲"
   },
   {
     "code": "PAB",
     "symbol": "B/.",
-    "name": "Panamanian balboa",
-    "countryKeywords": [
-      "PAB",
-      "PA",
-      "Panama",
-      "pan"
-    ],
-    "supportsDecimals": true
+    "name": "Panamanian Balboa",
+    "flag": "🇵🇦"
   },
   {
     "code": "PEN",
-    "symbol": "S/.",
-    "name": "Peruvian sol",
-    "countryKeywords": [
-      "PE",
-      "PEN",
-      "per",
-      "Peru"
-    ],
-    "supportsDecimals": true
+    "symbol": "S/",
+    "name": "Peruvian Nuevo Sol",
+    "flag": "🇵🇪"
   },
   {
     "code": "PGK",
-    "symbol": "PGK",
-    "name": "Papua New Guinean kina",
-    "countryKeywords": [
-      "Papua New Guinea",
-      "PGK",
-      "PG",
-      "png"
-    ],
-    "supportsDecimals": true
+    "symbol": "K",
+    "name": "Papua New Guinean Kina",
+    "flag": "🇵🇬"
   },
   {
     "code": "PHP",
     "symbol": "₱",
-    "name": "Philippine peso",
-    "countryKeywords": [
-      "phl",
-      "Philippines",
-      "PH",
-      "PHP"
-    ],
-    "supportsDecimals": true
+    "name": "Philippine Peso",
+    "flag": "🇵🇭"
   },
   {
     "code": "PKR",
     "symbol": "₨",
-    "name": "Pakistani rupee",
-    "countryKeywords": [
-      "Pakistan",
-      "PKR",
-      "PK",
-      "pak"
-    ],
-    "supportsDecimals": true
+    "name": "Pakistani Rupee",
+    "flag": "🇵🇰"
   },
   {
     "code": "PLN",
     "symbol": "zł",
-    "name": "Polish złoty",
-    "countryKeywords": [
-      "PLN",
-      "Poland",
-      "PL",
-      "pol"
-    ],
-    "supportsDecimals": true
+    "name": "Polish Zloty",
+    "flag": "🇵🇱"
   },
   {
     "code": "PYG",
     "symbol": "₲",
-    "name": "Paraguay guaraní",
-    "countryKeywords": [
-      "pry",
-      "PY",
-      "Paraguay",
-      "PYG"
-    ],
-    "supportsDecimals": false
+    "name": "Paraguayan Guarani",
+    "flag": "🇵🇾"
   },
   {
     "code": "QAR",
-    "symbol": "QR",
-    "name": "Qatari riyal",
-    "countryKeywords": [
-      "QA",
-      "QAR",
-      "qat",
-      "Qatar"
-    ],
-    "supportsDecimals": true
+    "symbol": "ر.ق",
+    "name": "Qatari Rial",
+    "flag": "🇶🇦"
   },
   {
     "code": "RON",
     "symbol": "L",
-    "name": "Romanian leu",
-    "countryKeywords": [
-      "RON",
-      "Romania",
-      "rou",
-      "RO"
-    ],
-    "supportsDecimals": true
+    "name": "Romanian Leu",
+    "flag": "🇷🇴"
   },
   {
     "code": "RSD",
-    "symbol": "РСД",
-    "name": "Serbian dinar",
-    "countryKeywords": [
-      "RS",
-      "RSD",
-      "srb",
-      "Serbia"
-    ],
-    "supportsDecimals": true
+    "symbol": "дин",
+    "name": "Serbian Dinar",
+    "flag": "🇷🇸"
   },
   {
     "code": "RUB",
-    "symbol": "руб",
-    "name": "Russian rouble",
-    "countryKeywords": [
-      "rus",
-      "Russian Federation",
-      "RU",
-      "RUB"
-    ],
-    "supportsDecimals": true
+    "symbol": "₽",
+    "name": "Russian Ruble",
+    "flag": "🇷🇺"
   },
   {
     "code": "RWF",
-    "symbol": "RWF",
-    "name": "Rwandan franc",
-    "countryKeywords": [
-      "RWF",
-      "RW",
-      "Rwanda",
-      "rwa"
-    ],
-    "supportsDecimals": false
+    "symbol": "FRw",
+    "name": "Rwandan Franc",
+    "flag": "🇷🇼"
   },
   {
     "code": "SAR",
-    "symbol": "SR",
-    "name": "Saudi riyal",
-    "countryKeywords": [
-      "Saudi Arabia",
-      "SAR",
-      "sau",
-      "SA"
-    ],
-    "supportsDecimals": true
+    "symbol": "ر.س",
+    "name": "Saudi Riyal",
+    "flag": "🇸🇦"
   },
   {
     "code": "SBD",
-    "symbol": "SI$",
-    "name": "Solomon Islands dollar",
-    "countryKeywords": [
-      "SBD",
-      "slb",
-      "SB",
-      "Solomon Islands"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Solomon Islands Dollar",
+    "flag": "🇸🇧"
   },
   {
     "code": "SCR",
-    "symbol": "₨",
-    "name": "Seychellois rupee",
-    "countryKeywords": [
-      "SC",
-      "SCR",
-      "Seychelles",
-      "syc"
-    ],
-    "supportsDecimals": true
+    "symbol": "SRe",
+    "name": "Seychellois Rupee",
+    "flag": "🇸🇨"
   },
   {
     "code": "SDG",
-    "symbol": "SDG",
+    "symbol": "ج.س",
     "name": "Sudanese Pound",
-    "countryKeywords": [
-      "SD",
-      "SDG",
-      "Sudan",
-      "sdn"
-    ],
-    "supportsDecimals": true
+    "flag": "🇸🇩"
   },
   {
     "code": "SEK",
     "symbol": "kr",
-    "name": "Swedish krona",
-    "countryKeywords": [
-      "swe",
-      "SE",
-      "Sweden",
-      "SEK"
-    ],
-    "supportsDecimals": true
+    "name": "Swedish Krona",
+    "flag": "🇸🇪"
   },
   {
     "code": "SGD",
-    "symbol": "S$",
-    "name": "Singapore dollar",
-    "countryKeywords": [
-      "SGD",
-      "Singapore",
-      "SG",
-      "sgp"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Singapore Dollar",
+    "flag": "🇸🇬"
   },
   {
     "code": "SHP",
     "symbol": "£",
-    "name": "Saint Helena pound",
-    "countryKeywords": [
-      "SH",
-      "shn",
-      "SHP",
-      "Saint Helena"
-    ],
-    "supportsDecimals": true
+    "name": "Saint Helena Pound",
+    "flag": "🇸🇭"
   },
   {
     "code": "SLL",
-    "symbol": "SLL",
-    "name": "Sierra Leonean leone",
-    "countryKeywords": [
-      "SLL",
-      "SL",
-      "Sierra Leone",
-      "sle"
-    ],
-    "supportsDecimals": true
+    "symbol": "Le",
+    "name": "Sierra Leonean Leone",
+    "flag": "🇸🇱"
   },
   {
     "code": "SOS",
     "symbol": "Sh.So.",
-    "name": "Somali shilling",
-    "countryKeywords": [
-      "som",
-      "SOS",
-      "Somalia",
-      "SO"
-    ],
-    "supportsDecimals": true
+    "name": "Somali Shilling",
+    "flag": "🇸🇴"
   },
   {
     "code": "SRD",
     "symbol": "$",
-    "name": "Surinamese dollar",
-    "countryKeywords": [
-      "sur",
-      "SRD",
-      "Suriname",
-      "SR"
-    ],
-    "supportsDecimals": true
-  },
-  {
-    "code": "SSP",
-    "symbol": "SSP",
-    "name": "South Sudanese pound",
-    "countryKeywords": [
-      "SS",
-      "SSP",
-      "South Sudan",
-      "ssd"
-    ],
-    "supportsDecimals": true
+    "name": "Surinamese Dollar",
+    "flag": "🇸🇷"
   },
   {
     "code": "STD",
-    "symbol": "STD",
-    "name": "São Tomé & Príncipe dobra",
-    "countryKeywords": [],
-    "supportsDecimals": true
-  },
-  {
-    "code": "STN",
-    "symbol": "STN",
-    "name": "STN",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "symbol": "Db",
+    "name": "São Tomé and Príncipe Dobra",
+    "flag": "🇸🇹"
   },
   {
     "code": "SVC",
     "symbol": "₡",
-    "name": "Salvadoran colón",
-    "countryKeywords": [
-      "SVC",
-      "SV",
-      "El Salvador",
-      "slv"
-    ],
-    "supportsDecimals": true
+    "name": "Salvadoran Colón",
+    "flag": "🇸🇻"
   },
   {
     "code": "SYP",
-    "symbol": "£",
-    "name": "Syrian pound",
-    "countryKeywords": [
-      "Syrian Arab Republic",
-      "SY",
-      "SYP",
-      "syr"
-    ],
-    "supportsDecimals": true
+    "symbol": "LS",
+    "name": "Syrian Pound",
+    "flag": "🇸🇾"
   },
   {
     "code": "SZL",
-    "symbol": "SZL",
-    "name": "Swazi lilangeni",
-    "countryKeywords": [
-      "SZL",
-      "Swaziland",
-      "SZ",
-      "swz"
-    ],
-    "supportsDecimals": true
+    "symbol": "E",
+    "name": "Swazi Lilangeni",
+    "flag": "🇸🇿"
   },
   {
     "code": "THB",
     "symbol": "฿",
-    "name": "Thai baht",
-    "countryKeywords": [
-      "TH",
-      "tha",
-      "Thailand",
-      "THB"
-    ],
-    "supportsDecimals": true
+    "name": "Thai Baht",
+    "flag": "🇹🇭"
   },
   {
     "code": "TJS",
-    "symbol": "TJS",
-    "name": "Tajikistani somoni",
-    "countryKeywords": [
-      "tjk",
-      "TJ",
-      "TJS",
-      "Tajikistan"
-    ],
-    "supportsDecimals": true
+    "symbol": "SM",
+    "name": "Tajikistani Somoni",
+    "flag": "🇹🇯"
   },
   {
     "code": "TMT",
-    "symbol": "TMT",
-    "name": "Turkmenistani manat",
-    "countryKeywords": [
-      "tkm",
-      "TM",
-      "TMT",
-      "Turkmenistan"
-    ],
-    "supportsDecimals": true
+    "symbol": "T",
+    "name": "Turkmenistani Manat",
+    "flag": "🇹🇲"
   },
   {
     "code": "TND",
-    "symbol": "TND",
-    "name": "Tunisian dinar",
-    "countryKeywords": [
-      "TN",
-      "TND",
-      "tun",
-      "Tunisia"
-    ],
-    "supportsDecimals": true
+    "symbol": "د.ت",
+    "name": "Tunisian Dinar",
+    "flag": "🇹🇳"
   },
   {
     "code": "TOP",
-    "symbol": "TOP",
-    "name": "Tongan paanga",
-    "countryKeywords": [
-      "ton",
-      "TOP",
-      "TO",
-      "Tonga"
-    ],
-    "supportsDecimals": true
+    "symbol": "T$",
+    "name": "Tongan Paʻanga",
+    "flag": "🇹🇴"
   },
   {
     "code": "TRY",
-    "symbol": "TL",
-    "name": "Turkish lira",
-    "countryKeywords": [
-      "tur",
-      "Turkey",
-      "TRY",
-      "TR"
-    ],
-    "supportsDecimals": true
+    "symbol": "₺",
+    "name": "Turkish Lira",
+    "flag": "🇹🇷"
   },
   {
     "code": "TTD",
-    "symbol": "TTD",
-    "name": "Trinidad and Tobago dollar",
-    "countryKeywords": [
-      "TT",
-      "TTD",
-      "Trinidad and Tobago",
-      "tto"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Trinidad and Tobago Dollar",
+    "flag": "🇹🇹"
   },
   {
     "code": "TWD",
-    "symbol": "NT$",
-    "name": "Taiwanese New Taiwan dollar",
-    "countryKeywords": [
-      "TWD",
-      "TW",
-      "Taiwan",
-      "twn"
-    ],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "New Taiwan Dollar",
+    "flag": ""
   },
   {
     "code": "TZS",
-    "symbol": "tzs",
-    "name": "Tanzanian shilling",
-    "countryKeywords": [
-      "TZ",
-      "Tanzania",
-      "tza",
-      "TZS"
-    ],
-    "supportsDecimals": true
+    "symbol": "Tsh",
+    "name": "Tanzanian Shilling",
+    "flag": "🇹🇿"
   },
   {
     "code": "UAH",
     "symbol": "₴",
-    "name": "Ukrainian hryvnia",
-    "countryKeywords": [
-      "Ukraine",
-      "UA",
-      "UAH",
-      "ukr"
-    ],
-    "supportsDecimals": true
+    "name": "Ukrainian Hryvnia",
+    "flag": "🇺🇦"
   },
   {
     "code": "UGX",
-    "symbol": "Ush",
-    "name": "Ugandan shilling",
-    "countryKeywords": [
-      "UG",
-      "UGX",
-      "Uganda",
-      "uga"
-    ],
-    "supportsDecimals": false
+    "symbol": "USh",
+    "name": "Ugandan Shilling",
+    "flag": "🇺🇬"
   },
   {
     "code": "USD",
     "symbol": "$",
-    "name": "United States dollar",
-    "countryKeywords": [
-      "Cambodia",
-      "cck",
-      "fin",
-      "Paraguay",
-      "uga",
-      "lux",
-      "iot",
-      "Solomon Islands",
-      "Montserrat",
-      "deu",
-      "Guadeloupe",
-      "lva",
-      "vir",
-      "hnd",
-      "nzl",
-      "AD",
-      "Falkland Islands",
-      "AE",
-      "fji",
-      "AG",
-      "Seychelles",
-      "AI",
-      "glp",
-      "AL",
-      "AM",
-      "Bahrain",
-      "AO",
-      "wlf",
-      "AR",
-      "AS",
-      "AT",
-      "AU",
-      "Faroe Islands",
-      "AX",
-      "Finland",
-      "AZ",
-      "gmb",
-      "BA",
-      "BB",
-      "Puerto Rico",
-      "BE",
-      "BF",
-      "BG",
-      "mys",
-      "BH",
-      "BJ",
-      "myt",
-      "BL",
-      "BN",
-      "BO",
-      "BQ",
-      "BS",
-      "BT",
-      "Cocos (Keeling) Islands",
-      "BW",
-      "Liechtenstein",
-      "United States Virgin Islands",
-      "gnb",
-      "Bulgaria",
-      "sen",
-      "CA",
-      "CC",
-      "irl",
-      "flk",
-      "CH",
-      "CI",
-      "CK",
-      "CL",
-      "United Arab Emirates",
-      "CN",
-      "tha",
-      "Kenya",
-      "CR",
-      "French Polynesia",
-      "Saint Lucia",
-      "CX",
-      "CY",
-      "CZ",
-      "Mayotte",
-      "San Marino",
-      "Israel",
-      "Tajikistan",
-      "DE",
-      "Gibraltar",
-      "isl",
-      "Cyprus",
-      "DK",
-      "bel",
-      "Northern Mariana Islands",
-      "DM",
-      "kwt",
-      "isr",
-      "Malaysia",
-      "ben",
-      "DO",
-      "Armenia",
-      "bes",
-      "DZ",
-      "ita",
-      "Turks and Caicos Islands",
-      "bfa",
-      "pan",
-      "ukr",
-      "sgp",
-      "EC",
-      "sgs",
-      "EE",
-      "che",
-      "Ecuador",
-      "EH",
-      "reu",
-      "chl",
-      "chn",
-      "hrv",
-      "ES",
-      "ET",
-      "United States Minor Outlying Islands",
-      "vnm",
-      "tjk",
-      "shn",
-      "Italy",
-      "Haiti",
-      "FI",
-      "FJ",
-      "FK",
-      "FM",
-      "FO",
-      "American Samoa",
-      "bgr",
-      "FR",
-      "Vatican City",
-      "umi",
-      "civ",
-      "tkl",
-      "grc",
-      "pcn",
-      "GA",
-      "GB",
-      "hti",
-      "Kyrgyzstan",
-      "GE",
-      "GF",
-      "grl",
-      "GG",
-      "GH",
-      "GI",
-      "GL",
-      "GM",
-      "GN",
-      "Uzbekistan",
-      "GP",
-      "GR",
-      "GS",
-      "bhs",
-      "GT",
-      "bhr",
-      "GU",
-      "GW",
-      "GY",
-      "dma",
-      "tls",
-      "Dominica",
-      "hun",
-      "bih",
-      "Benin",
-      "HK",
-      "HN",
-      "ago",
-      "HR",
-      "HT",
-      "HU",
-      "Portugal",
-      "wsm",
-      "Mongolia",
-      "Latvia",
-      "fra",
-      "Morocco",
-      "Guatemala",
-      "nam",
-      "ID",
-      "IE",
-      "per",
-      "dnk",
-      "gtm",
-      "fro",
-      "IL",
-      "IM",
-      "IN",
-      "IO",
-      "Tanzania",
-      "slb",
-      "Ghana",
-      "IS",
-      "IT",
-      "sle",
-      "India",
-      "Canada",
-      "Taiwan",
-      "aia",
-      "guf",
-      "JE",
-      "slv",
-      "Germany",
-      "gum",
-      "fsm",
-      "dom",
-      "JM",
-      "Fiji",
-      "Guinea",
-      "United States",
-      "JP",
-      "Micronesia, Federated States of",
-      "Sao Tome and Principe",
-      "guy",
-      "mac",
-      "Costa Rica",
-      "Vietnam",
-      "ton",
-      "ncl",
-      "smr",
-      "KE",
-      "KG",
-      "Nigeria",
-      "KH",
-      "mar",
-      "blm",
-      "KN",
-      "USD",
-      "Timor-Leste",
-      "KR",
-      "KW",
-      "Switzerland",
-      "KY",
-      "Samoa",
-      "Spain",
-      "KZ",
-      "phl",
-      "LA",
-      "LB",
-      "LC",
-      "Palau",
-      "esh",
-      "ury",
-      "LI",
-      "cok",
-      "Estonia",
-      "LK",
-      "usa",
-      "esp",
-      "LR",
-      "est",
-      "LT",
-      "LU",
-      "LV",
-      "Niue",
-      "El Salvador",
-      "vut",
-      "MA",
-      "alb",
-      "MC",
-      "ala",
-      "ME",
-      "Guam",
-      "eth",
-      "mco",
-      "ner",
-      "MH",
-      "lao",
-      "Tonga",
-      "MK",
-      "ML",
-      "MM",
-      "Western Sahara",
-      "MN",
-      "MO",
-      "MP",
-      "MQ",
-      "MR",
-      "MS",
-      "MT",
-      "MU",
-      "MW",
-      "MX",
-      "MY",
-      "Mauritius",
-      "Norfolk Island",
-      "spm",
-      "nfk",
-      "NA",
-      "Sint Maarten (Dutch part)",
-      "NC",
-      "NE",
-      "NF",
-      "lbn",
-      "NG",
-      "NI",
-      "lbr",
-      "NL",
-      "bol",
-      "NO",
-      "NP",
-      "NR",
-      "NU",
-      "nga",
-      "lca",
-      "NZ",
-      "Malta",
-      "Ireland",
-      "and",
-      "rou",
-      "cri",
-      "Lithuania",
-      "France",
-      "mex",
-      "srb",
-      "kaz",
-      "tto",
-      "PA",
-      "Nicaragua",
-      "Norway",
-      "PE",
-      "PF",
-      "PG",
-      "Macao",
-      "PH",
-      "Côte dIvoire",
-      "Mexico",
-      "Uganda",
-      "plw",
-      "Suriname",
-      "PL",
-      "PM",
-      "Greenland",
-      "PN",
-      "Saint Helena",
-      "PR",
-      "Papua New Guinea",
-      "PT",
-      "PW",
-      "PY",
-      "nic",
-      "tun",
-      "Kazakhstan",
-      "Åland Islands",
-      "Bahamas",
-      "tur",
-      "brb",
-      "tuv",
-      "Marshall Islands",
-      "Mali",
-      "Panama",
-      "jam",
-      "niu",
-      "Laos",
-      "zaf",
-      "brn",
-      "Argentina",
-      "png",
-      "Zambia",
-      "stp",
-      "mhl",
-      "Guinea-Bissau",
-      "RE",
-      "Namibia",
-      "Macedonia, Former Yugoslav Republic of",
-      "Georgia",
-      "Saint Kitts and Nevis",
-      "RO",
-      "RS",
-      "RW",
-      "twn",
-      "pol",
-      "SB",
-      "SC",
-      "sur",
-      "SE",
-      "Sweden",
-      "South Georgia and the South Sandwich Islands",
-      "SG",
-      "Malawi",
-      "are",
-      "SH",
-      "ken",
-      "SI",
-      "Andorra",
-      "arg",
-      "Poland",
-      "SK",
-      "SL",
-      "SM",
-      "SN",
-      "uzb",
-      "btn",
-      "arm",
-      "Tunisia",
-      "SR",
-      "ST",
-      "SV",
-      "SX",
-      "nld",
-      "svk",
-      "svn",
-      "Tuvalu",
-      "TC",
-      "Lebanon",
-      "Azerbaijan",
-      "TF",
-      "Czech Republic",
-      "Mauritania",
-      "TH",
-      "Guernsey",
-      "TJ",
-      "TK",
-      "TL",
-      "TN",
-      "asm",
-      "TO",
-      "Bonaire",
-      "Australia",
-      "TR",
-      "TT",
-      "swe",
-      "Myanmar",
-      "TV",
-      "TW",
-      "TZ",
-      "mkd",
-      "lie",
-      "dza",
-      "UA",
-      "Iceland",
-      "Gabon",
-      "atf",
-      "UG",
-      "atg",
-      "Luxembourg",
-      "UM",
-      "Algeria",
-      "tza",
-      "Jersey",
-      "Slovenia",
-      "cxr",
-      "US",
-      "jey",
-      "kgz",
-      "Antigua and Barbuda",
-      "UY",
-      "UZ",
-      "pri",
-      "sxm",
-      "mli",
-      "VA",
-      "bwa",
-      "VC",
-      "VG",
-      "khm",
-      "Vanuatu",
-      "idn",
-      "VI",
-      "prt",
-      "mlt",
-      "pry",
-      "cym",
-      "VN",
-      "Honduras",
-      "cyp",
-      "syc",
-      "Nauru",
-      "rwa",
-      "aus",
-      "VU",
-      "aut",
-      "lka",
-      "Singapore",
-      "French Guiana",
-      "Christmas Island",
-      "gab",
-      "cze",
-      "WF",
-      "nor",
-      "Netherlands",
-      "mmr",
-      "China",
-      "Martinique",
-      "Saint Pierre and Miquelon",
-      "WS",
-      "Bhutan",
-      "Romania",
-      "mne",
-      "Philippines",
-      "mng",
-      "npl",
-      "mnp",
-      "gbr",
-      "British Virgin Islands",
-      "British Indian Ocean Territory",
-      "Montenegro",
-      "Indonesia",
-      "Angola",
-      "Brunei Darussalam",
-      "New Caledonia",
-      "Cayman Islands",
-      "Greece",
-      "Guyana",
-      "YT",
-      "Chile",
-      "Nepal",
-      "Isle of Man",
-      "Ukraine",
-      "ZA",
-      "vat",
-      "Anguilla",
-      "nru",
-      "ZM",
-      "Turkey",
-      "Belgium",
-      "Trinidad and Tobago",
-      "South Africa",
-      "Jamaica",
-      "Peru",
-      "Tokelau",
-      "Hong Kong",
-      "Pitcairn Islands",
-      "Thailand",
-      "aze",
-      "geo",
-      "Kuwait",
-      "kna",
-      "Croatia",
-      "Cook Islands",
-      "Uruguay",
-      "Sri Lanka",
-      "vct",
-      "United Kingdom",
-      "mrt",
-      "Liberia",
-      "Burkina Faso",
-      "Saint Barthélemy",
-      "pyf",
-      "msr",
-      "Wallis and Futuna",
-      "zmb",
-      "kor",
-      "South Korea",
-      "Austria",
-      "Monaco",
-      "ecu",
-      "ggy",
-      "gha",
-      "Hungary",
-      "Réunion",
-      "Japan",
-      "mtq",
-      "Albania",
-      "New Zealand",
-      "Senegal",
-      "Ethiopia",
-      "gib",
-      "hkg",
-      "Sierra Leone",
-      "mus",
-      "imn",
-      "Bolivia",
-      "gin",
-      "vgb",
-      "can",
-      "tca",
-      "Gambia",
-      "Slovakia",
-      "Serbia",
-      "Bosnia and Herzegovina",
-      "ind",
-      "Niger",
-      "Rwanda",
-      "jpn",
-      "French Southern Territories",
-      "ltu",
-      "Barbados",
-      "Botswana",
-      "Saint Vincent and the Grenadines",
-      "Dominican Republic",
-      "Denmark",
-      "mwi"
-    ],
-    "supportsDecimals": true
+    "name": "United States Dollar",
+    "flag": "🇺🇸"
   },
   {
     "code": "UYU",
-    "symbol": "$U",
-    "name": "Uruguayan peso",
-    "countryKeywords": [
-      "UYU",
-      "UY",
-      "Uruguay",
-      "ury"
-    ],
-    "supportsDecimals": true
-  },
-  {
-    "code": "UYW",
-    "symbol": "UYW",
-    "name": "UYW",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "symbol": "$",
+    "name": "Uruguayan Peso",
+    "flag": "🇺🇾"
   },
   {
     "code": "UZS",
-    "symbol": "UZS",
-    "name": "Uzbekistani som",
-    "countryKeywords": [
-      "UZ",
-      "Uzbekistan",
-      "uzb",
-      "UZS"
-    ],
-    "supportsDecimals": true
+    "symbol": "soʻm",
+    "name": "Uzbekistan Som",
+    "flag": "🇺🇿"
   },
   {
-    "code": "VES",
-    "symbol": "Bs.",
-    "name": "VES",
-    "countryKeywords": [],
-    "supportsDecimals": true
+    "code": "VEF",
+    "symbol": "Bs.F.",
+    "name": "Venezuelan Bolívar Fuerte",
+    "flag": "🇻🇪"
   },
   {
     "code": "VND",
-    "symbol": "VND",
-    "name": "Vietnamese dong",
-    "countryKeywords": [
-      "Vietnam",
-      "vnm",
-      "VN",
-      "VND"
-    ],
-    "supportsDecimals": false
+    "symbol": "₫",
+    "name": "Vietnamese Dong",
+    "flag": "🇻🇳"
   },
   {
     "code": "VUV",
-    "symbol": "VUV",
-    "name": "Vanuatu vatu",
-    "countryKeywords": [
-      "Vanuatu",
-      "vut",
-      "VUV",
-      "VU"
-    ],
-    "supportsDecimals": false
+    "symbol": "VT",
+    "name": "Vanuatu Vatu",
+    "flag": "🇻🇺"
   },
   {
     "code": "WST",
-    "symbol": "WST",
-    "name": "Samoan tala",
-    "countryKeywords": [
-      "wsm",
-      "WST",
-      "WS",
-      "Samoa"
-    ],
-    "supportsDecimals": true
+    "symbol": "WS$",
+    "name": "Samoan Tala",
+    "flag": "🇼🇸"
   },
   {
     "code": "XAF",
-    "symbol": "XAF",
-    "name": "Central African CFA franc",
-    "countryKeywords": [
-      "CF",
-      "CG",
-      "Cameroone",
-      "Chad",
-      "gab",
-      "cmr",
-      "caf",
-      "CM",
-      "GQ",
-      "gnq",
-      "Equatorial Guinea",
-      "Congo",
-      "TD",
-      "Gabon",
-      "tcd",
-      "GA",
-      "cog",
-      "Central African Republic",
-      "XAF"
-    ],
-    "supportsDecimals": false
+    "symbol": "FCFA",
+    "name": "CFA Franc BEAC",
+    "flag": "🇨🇲"
+  },
+  {
+    "code": "XAG",
+    "symbol": "Silver (troy ounce)",
+    "name": "Silver (troy ounce)",
+    "flag": "🥈"
+  },
+  {
+    "code": "XAU",
+    "symbol": "Gold (troy ounce)",
+    "name": "Gold (troy ounce)",
+    "flag": "🥇"
   },
   {
     "code": "XCD",
     "symbol": "$",
-    "name": "East Caribbean dollar",
-    "countryKeywords": [
-      "DM",
-      "lca",
-      "msr",
-      "Grenada",
-      "Montserrat",
-      "atg",
-      "grd",
-      "GD",
-      "kna",
-      "Antigua and Barbuda",
-      "KN",
-      "AG",
-      "vct",
-      "MS",
-      "AI",
-      "Anguilla",
-      "VC",
-      "Saint Lucia",
-      "Saint Vincent and the Grenadines",
-      "LC",
-      "XCD",
-      "aia",
-      "dma",
-      "Saint Kitts and Nevis",
-      "Dominica"
-    ],
-    "supportsDecimals": true
+    "name": "East Caribbean Dollar",
+    "flag": "🇦🇬"
+  },
+  {
+    "code": "XDR",
+    "symbol": "SDR",
+    "name": "Special Drawing Rights",
+    "flag": ""
   },
   {
     "code": "XOF",
-    "symbol": "XOF",
-    "name": "West African CFA franc",
-    "countryKeywords": [
-      "Benin",
-      "BF",
-      "BJ",
-      "nga",
-      "ben",
-      "civ",
-      "Mali",
-      "gnb",
-      "ner",
-      "SN",
-      "bfa",
-      "Nigeria",
-      "tgo",
-      "sen",
-      "ML",
-      "Togo",
-      "Niger",
-      "CI",
-      "mli",
-      "XOF",
-      "GW",
-      "Guinea-Bissau",
-      "Burkina Faso",
-      "TG",
-      "Senegal",
-      "NE",
-      "NG",
-      "Côte dIvoire"
-    ],
-    "supportsDecimals": false
+    "symbol": "CFA",
+    "name": "CFA Franc BCEAO",
+    "flag": ""
   },
   {
     "code": "XPF",
-    "symbol": "XPF",
-    "name": "CFP franc",
-    "countryKeywords": [
-      "wlf",
-      "NC",
-      "PF",
-      "ncl",
-      "pyf",
-      "Wallis and Futuna",
-      "New Caledonia",
-      "XPF",
-      "WF",
-      "French Polynesia"
-    ],
-    "supportsDecimals": false
+    "symbol": "F",
+    "name": "CFP Franc",
+    "flag": "🇵🇫"
   },
   {
     "code": "YER",
-    "symbol": "﷼",
-    "name": "Yemeni rial",
-    "countryKeywords": [
-      "yem",
-      "YER",
-      "YE",
-      "Yemen"
-    ],
-    "supportsDecimals": true
+    "symbol": "ر.ي",
+    "name": "Yemeni Rial",
+    "flag": "🇾🇪"
   },
   {
     "code": "ZAR",
     "symbol": "R",
-    "name": "South African rand",
-    "countryKeywords": [
-      "ZA",
-      "South Africa",
-      "ZAR",
-      "zaf"
-    ],
-    "supportsDecimals": true
+    "name": "South African Rand",
+    "flag": "🇿🇦"
+  },
+  {
+    "code": "ZMK",
+    "symbol": "K",
+    "name": "Zambian Kwacha (pre-2013)",
+    "flag": ""
   },
   {
     "code": "ZMW",
-    "symbol": "ZMW",
-    "name": "Zambian kwacha",
-    "countryKeywords": [
-      "ZM",
-      "ZMW",
-      "Zambia",
-      "zmb"
-    ],
-    "supportsDecimals": true
+    "symbol": "K",
+    "name": "Zambian Kwacha",
+    "flag": "🇿🇲"
+  },
+  {
+    "code": "ZWL",
+    "symbol": "$",
+    "name": "Zimbabwean Dollar",
+    "flag": "🇿🇼"
   }
 ]
