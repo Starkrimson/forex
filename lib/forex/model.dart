@@ -70,6 +70,18 @@ class Fixer {
     }
     return data;
   }
+
+  static Fixer fromDBMap(Map<String, dynamic> map) {
+    return Fixer.fromJson(jsonDecode(map["value"]));
+  }
+
+  Map<String, dynamic> toDBMap() {
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['timestamp'] = timestamp;
+    data['date'] = date;
+    data['value'] = jsonEncode(toJson());
+    return data;
+  }
 }
 
 class FixerError {

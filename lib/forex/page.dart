@@ -48,6 +48,17 @@ class ForexPage extends StatelessWidget {
                     )
                   ],
                 ),
+                SliverToBoxAdapter(
+                  child: Visibility(
+                    visible: state.latest?.success == false,
+                    child: Row(
+                      children: [
+                        Icon(Icons.error, color: Colors.red[300]),
+                        Expanded(child: Text(state.latest?.error?.info ?? "")),
+                      ],
+                    ),
+                  ),
+                ),
                 SliverList(
                     delegate: SliverChildListDelegate(
                         List.generate(state.convertList.length, (index) {

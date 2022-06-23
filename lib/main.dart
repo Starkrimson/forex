@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
             create: (context) => CurrenciesCubit()..loadFromJson(context),
           ),
           BlocProvider(
-            create: (context) => ForexCubit()..initial(context),
+            create: (context) => ForexCubit()..initial(),
           ),
         ],
         child: const ForexPage(),

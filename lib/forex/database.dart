@@ -7,6 +7,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:forex/forex/model.dart';
 
 const convertTable = "Convert";
+const fixerTable = "Fixer";
 
 class DBProvider {
   late Database db;
@@ -25,12 +26,21 @@ class DBProvider {
           )
           ''',
       );
+
+      await db.execute(
+        '''
+        CREATE TABLE $fixerTable (
+          timestamp INTEGER PRIMARY KEY,
+          date TEXT,
+          value TEXT
+          )
+          ''',
+      );
     });
   }
 
   Future<List<Convert>> getConvertList() async {
     List<Map<String, dynamic>> maps = await db.query(convertTable);
-    Logger().d(maps);
     return maps.map((e) => Convert.fromMap(e)).toList();
   }
 
@@ -46,6 +56,22 @@ class DBProvider {
 
   Future deleteConvert(String uuid) async {
     return await db.delete(convertTable, where: 'uuid = ?', whereArgs: [uuid]);
+  }
+
+  Future<Fixer?> getLatestFixer() async {
+    List<Map<String, dynamic>> maps = await db.query(
+      fixerTable,
+      limit: 1,
+    );
+    if (maps.isNotEmpty) {
+      return Fixer.fromDBMap(maps.first);
+    }
+    return null;
+  }
+
+  Future<Fixer> insertFixer(Fixer fixer) async {
+    await db.insert(fixerTable, fixer.toDBMap());
+    return fixer;
   }
 
   Future close() async => db.close();

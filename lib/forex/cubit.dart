@@ -1,6 +1,3 @@
-// Dart imports:
-import 'dart:convert';
-
 // Flutter imports:
 import 'package:flutter/widgets.dart';
 
@@ -9,7 +6,6 @@ import 'package:bloc/bloc.dart';
 import 'package:uuid/uuid.dart';
 
 // Project imports:
-import 'package:forex/common/assets_path.dart';
 import 'package:forex/currencies/model.dart';
 import 'package:forex/forex/client.dart';
 import 'package:forex/forex/database.dart';
@@ -43,27 +39,27 @@ class ForexCubit extends Cubit<ForexState> {
 
   ForexCubit() : super(UnForexState());
 
-  initial(context) async {
-    await _dbProvider.open();
-    final convertList = await _dbProvider.getConvertList();
-
-    final bundle = DefaultAssetBundle.of(context);
-    final latestContent = await bundle.loadString(Assets.fixerLatest);
-    final latest = Fixer.fromJson(jsonDecode(latestContent));
-
+  initial() async {
     try {
-      final fixer = await FixerClient.latest();
+      await _dbProvider.open();
+      final convertList = await _dbProvider.getConvertList();
 
-      if (fixer.success == false) {
-        emit(ErrorForexState(fixer.error?.info ?? ""));
-        emit(
-          InForexState(convertList, latest: latest),
-        );
-      } else {
-        emit(
-          InForexState(convertList, latest: latest),
-        );
+      var latest = await _dbProvider.getLatestFixer();
+      final now = DateTime.now().millisecondsSinceEpoch / 1000;
+
+      // database 数据为空或者超过8小时，重新获取
+      if (latest == null || now - (latest.timestamp ?? 0) > 60 * 60 * 8) {
+        latest = await FixerClient.latest();
+        if (latest.success == true) {
+          _dbProvider.insertFixer(latest);
+        }
       }
+      for (var element in convertList) {
+        element.from.rate = latest.rates?[element.from.code] ?? 0;
+        element.to?.rate = latest.rates?[element.to?.code] ?? 0;
+      }
+
+      emit(InForexState(convertList, latest: latest));
     } catch (e) {
       emit(ErrorForexState(e.toString()));
     }
