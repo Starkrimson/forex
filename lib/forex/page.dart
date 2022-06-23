@@ -18,18 +18,36 @@ class ForexPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Forex")),
       body: BlocBuilder<ForexCubit, ForexState>(
         builder: (context, state) {
           if (state is UnForexState) {
             return const Center(child: CupertinoActivityIndicator());
           }
           if (state is ErrorForexState) {
-            return Center(child: Icon(Icons.error, color: Colors.red[300]));
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  state.error,
+                  textAlign: TextAlign.center,
+                ),
+                Icon(Icons.error, color: Colors.red[300]),
+              ],
+            );
           }
           if (state is InForexState) {
             return CustomScrollView(
               slivers: [
+                SliverAppBar(
+                  title: const Text("Forex"),
+                  actions: [
+                    Text(
+                      state.latest?.date ?? "",
+                      style: const TextStyle(fontSize: 12),
+                    )
+                  ],
+                ),
                 SliverList(
                     delegate: SliverChildListDelegate(
                         List.generate(state.convertList.length, (index) {

@@ -11,6 +11,7 @@ import 'package:uuid/uuid.dart';
 // Project imports:
 import 'package:forex/common/assets_path.dart';
 import 'package:forex/currencies/model.dart';
+import 'package:forex/forex/client.dart';
 import 'package:forex/forex/model.dart';
 
 /// ======== Forex State ========
@@ -29,7 +30,11 @@ class InForexState extends ForexState {
 }
 
 /// Error
-class ErrorForexState extends ForexState {}
+class ErrorForexState extends ForexState {
+  final String error;
+
+  ErrorForexState(this.error);
+}
 
 /// ======== Forex Cubit ========
 class ForexCubit extends Cubit<ForexState> {
@@ -56,12 +61,28 @@ class ForexCubit extends Cubit<ForexState> {
       rate: latest.rates?["USD"] ?? 0,
     );
 
-    emit(
-      InForexState(
-        [Convert(const Uuid().v1(), from, to: to)],
-        latest: latest,
-      ),
-    );
+    try {
+      final fixer = await FixerClient.latest();
+
+      if (fixer.success == false) {
+        emit(ErrorForexState(fixer.error?.info ?? ""));
+        emit(
+          InForexState(
+            [Convert(const Uuid().v1(), from, to: to)],
+            latest: latest,
+          ),
+        );
+      } else {
+        emit(
+          InForexState(
+            [Convert(const Uuid().v1(), from, to: to)],
+            latest: latest,
+          ),
+        );
+      }
+    } catch (e) {
+      emit(ErrorForexState(e.toString()));
+    }
   }
 
   add(Currency currency) async {
