@@ -1,3 +1,6 @@
+// Dart imports:
+import 'dart:convert';
+
 // Project imports:
 import 'package:forex/currencies/model.dart';
 
@@ -7,6 +10,25 @@ class Convert {
   Currency? to;
 
   Convert(this.uuid, this.from, {this.to});
+
+  static Convert fromMap(Map<String, dynamic> map) {
+    final from = Currency.fromJson(jsonDecode(map['_from']));
+    Convert convert = Convert(map['uuid'], from);
+    if (map['_to'] != null) {
+      convert.to = Currency.fromJson(jsonDecode(map['_to']));
+    }
+    return convert;
+  }
+
+  Map<String, dynamic> toMap() {
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['uuid'] = uuid;
+    data['_from'] = jsonEncode(from.toJson());
+    if (to != null) {
+      data['_to'] = jsonEncode(to!.toJson());
+    }
+    return data;
+  }
 }
 
 class Fixer {

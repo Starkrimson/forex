@@ -12,6 +12,7 @@ import 'package:uuid/uuid.dart';
 import 'package:forex/common/assets_path.dart';
 import 'package:forex/currencies/model.dart';
 import 'package:forex/forex/client.dart';
+import 'package:forex/forex/database.dart';
 import 'package:forex/forex/model.dart';
 
 /// ======== Forex State ========
@@ -38,28 +39,17 @@ class ErrorForexState extends ForexState {
 
 /// ======== Forex Cubit ========
 class ForexCubit extends Cubit<ForexState> {
+  final DBProvider _dbProvider = DBProvider();
+
   ForexCubit() : super(UnForexState());
 
   initial(context) async {
+    await _dbProvider.open();
+    final convertList = await _dbProvider.getConvertList();
+
     final bundle = DefaultAssetBundle.of(context);
     final latestContent = await bundle.loadString(Assets.fixerLatest);
     final latest = Fixer.fromJson(jsonDecode(latestContent));
-
-    final from = Currency(
-      code: "CNY",
-      symbol: "¥",
-      name: "Chinese Yuan",
-      flag: "🇨🇳",
-      rate: latest.rates?["CNY"] ?? 0,
-    );
-
-    final to = Currency(
-      code: "USD",
-      symbol: "\$",
-      name: "United States Dollar",
-      flag: "🇺🇸",
-      rate: latest.rates?["USD"] ?? 0,
-    );
 
     try {
       final fixer = await FixerClient.latest();
@@ -67,17 +57,11 @@ class ForexCubit extends Cubit<ForexState> {
       if (fixer.success == false) {
         emit(ErrorForexState(fixer.error?.info ?? ""));
         emit(
-          InForexState(
-            [Convert(const Uuid().v1(), from, to: to)],
-            latest: latest,
-          ),
+          InForexState(convertList, latest: latest),
         );
       } else {
         emit(
-          InForexState(
-            [Convert(const Uuid().v1(), from, to: to)],
-            latest: latest,
-          ),
+          InForexState(convertList, latest: latest),
         );
       }
     } catch (e) {
@@ -90,7 +74,9 @@ class ForexCubit extends Cubit<ForexState> {
       var list = (state as InForexState).convertList;
       final latest = (state as InForexState).latest;
       currency.rate = latest?.rates?[currency.code] ?? 0;
-      list = list + [Convert(const Uuid().v1(), currency)];
+      final convert = Convert(const Uuid().v1(), currency);
+      list = list + [convert];
+      _dbProvider.insertConvert(convert);
       emit(InForexState(list, latest: latest));
     }
   }
@@ -114,27 +100,14 @@ class ForexCubit extends Cubit<ForexState> {
         list[index].to = to;
       }
 
+      _dbProvider.updateConvert(list[index]);
       emit(InForexState(list, latest: latest));
     }
   }
 
   swag(String uuid, Currency from, Currency? to) async {
-    if (to == null) {
-      return;
-    }
-    if (state is InForexState) {
-      var list = (state as InForexState).convertList;
-      final latest = (state as InForexState).latest;
-      final index = list.indexWhere((element) => element.uuid == uuid);
-      if (index < 0) {
-        return;
-      }
-
-      list[index].from = to;
-      list[index].to = from;
-
-      emit(InForexState(list, latest: latest));
-    }
+    if (to == null) return;
+    update(uuid, from: to, to: from);
   }
 
   remove(String uuid) async {
@@ -142,6 +115,7 @@ class ForexCubit extends Cubit<ForexState> {
       var list = (state as InForexState).convertList;
       final latest = (state as InForexState).latest;
       list.removeWhere((element) => element.uuid == uuid);
+      _dbProvider.deleteConvert(uuid);
       emit(InForexState(list, latest: latest));
     }
   }
