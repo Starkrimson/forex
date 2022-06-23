@@ -1,4 +1,4 @@
-# forex
+# forex 货币汇率转换 App
 
 A new Flutter project.
 

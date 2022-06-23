@@ -80,13 +80,14 @@ class ConvertCell extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
               Expanded(child: from),
-              const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 8),
-                child: Icon(
+              IconButton(
+                onPressed: () => bloc.swag(item.uuid, item.from, item.to),
+                icon: const Icon(
                   Icons.swap_horiz,
                   color: Colors.grey,
                 ),
@@ -101,6 +102,10 @@ class ConvertCell extends StatelessWidget {
               )
             ],
           ),
+          Text(
+              "1${item.from.code} = ${(item.to?.rate ?? 0) / (item.from.rate ?? 0)}${item.to?.code}"),
+          Text(
+              "1${item.to?.code} = ${(item.from.rate ?? 0) / (item.to?.rate ?? 0)}${item.from.code}")
         ],
       ),
     );

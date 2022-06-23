@@ -4,11 +4,14 @@ class Currency {
   late String name;
   late String flag;
 
+  num? rate;
+
   Currency({
     required this.code,
     required this.symbol,
     required this.name,
     required this.flag,
+    this.rate,
   });
 
   Currency.fromJson(Map<String, dynamic> json) {

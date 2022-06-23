@@ -3,5 +3,6 @@
 /// ======================================
 
 class Assets {
+  static const String fixerLatest = "assets/fixer-latest.json";
   static const String currencies = "assets/currencies.json";
 }
