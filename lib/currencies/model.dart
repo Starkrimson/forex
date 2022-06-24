@@ -14,6 +14,10 @@ class Currency {
     this.rate,
   });
 
+  num rateOther(Currency? other) {
+    return (other?.rate ?? 0) / (rate ?? 0);
+  }
+
   Currency.fromJson(Map<String, dynamic> json) {
     code = json['code'] ?? "";
     symbol = json['symbol'] ?? "";

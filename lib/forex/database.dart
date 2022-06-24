@@ -21,6 +21,7 @@ class DBProvider {
         '''
         CREATE TABLE $convertTable (
           uuid TEXT PRIMARY KEY,
+          amount REAL,
           _from TEXT,
           _to TEXT
           )
@@ -62,6 +63,7 @@ class DBProvider {
     List<Map<String, dynamic>> maps = await db.query(
       fixerTable,
       limit: 1,
+      orderBy: "timestamp DESC",
     );
     if (maps.isNotEmpty) {
       return Fixer.fromDBMap(maps.first);

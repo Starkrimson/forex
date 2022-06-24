@@ -12,9 +12,20 @@ import 'package:forex/currencies/page.dart';
 class CurrencyPopupMenu extends StatelessWidget {
   final Currency? value;
   final void Function(Currency)? onSelected;
+  final Widget? child;
 
-  const CurrencyPopupMenu({Key? key, this.onSelected, this.value})
+  CurrencyPopupMenu({Key? key, this.onSelected, this.value, this.child})
       : super(key: key);
+
+  late final _child = Builder(builder: (context) {
+    if (child != null) {
+      return child!;
+    }
+    if (value == null) {
+      return const Icon(Icons.add);
+    }
+    return CurrencyCell(item: value!);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -22,11 +33,9 @@ class CurrencyPopupMenu extends StatelessWidget {
       builder: (context, state) {
         if (state is InCurrenciesState) {
           return PopupMenuButton<Currency>(
+            tooltip: "",
             initialValue: value,
-            // icon: const Icon(Icons.add),
-            child: value != null
-                ? CurrencyCell(item: value!)
-                : const Icon(Icons.add),
+            child: _child,
             onSelected: (element) {
               onSelected?.call(element);
             },

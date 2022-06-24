@@ -7,13 +7,18 @@ import 'package:forex/currencies/model.dart';
 class Convert {
   final String uuid;
   Currency from;
+  num? amount;
   Currency? to;
 
-  Convert(this.uuid, this.from, {this.to});
+  Convert(this.uuid, this.from, {this.to, this.amount = 1});
+
+  num toAmount() {
+    return (from.rateOther(to) * (amount ?? 0));
+  }
 
   static Convert fromMap(Map<String, dynamic> map) {
     final from = Currency.fromJson(jsonDecode(map['_from']));
-    Convert convert = Convert(map['uuid'], from);
+    Convert convert = Convert(map['uuid'], from, amount: map['amount']);
     if (map['_to'] != null) {
       convert.to = Currency.fromJson(jsonDecode(map['_to']));
     }
@@ -24,6 +29,7 @@ class Convert {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['uuid'] = uuid;
     data['_from'] = jsonEncode(from.toJson());
+    data['amount'] = amount;
     if (to != null) {
       data['_to'] = jsonEncode(to!.toJson());
     }
