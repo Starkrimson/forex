@@ -3,6 +3,7 @@
 /// ======================================
 
 class Assets {
-  static const String fixerLatest = "assets/fixer-latest.json";
+  static const String undrawPrintingInvoices =
+      "assets/undraw_printing_invoices.png";
   static const String currencies = "assets/currencies.json";
 }

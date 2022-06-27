@@ -49,14 +49,15 @@ class ForexCubit extends Cubit<ForexState> {
 
       // database 数据为空或者超过8小时，重新获取
       if (latest == null || now - (latest.timestamp ?? 0) > 60 * 60 * 8) {
-        latest = await FixerClient.latest();
-        if (latest.success == true) {
+        final latestAlt = await FixerClient.latest();
+        if (latestAlt.success == true) {
+          latest = latestAlt;
           _dbProvider.insertFixer(latest);
         }
       }
       for (var element in convertList) {
-        element.from.rate = latest.rates?[element.from.code] ?? 0;
-        element.to?.rate = latest.rates?[element.to?.code] ?? 0;
+        element.from.rate = latest?.rates?[element.from.code] ?? 0;
+        element.to?.rate = latest?.rates?[element.to?.code] ?? 0;
       }
 
       emit(InForexState(convertList, latest: latest));

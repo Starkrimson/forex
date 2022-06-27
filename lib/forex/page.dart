@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // Project imports:
+import 'package:forex/common/assets_path.dart';
 import 'package:forex/currencies/model.dart';
 import 'package:forex/currencies/popup_menu.dart';
 import 'package:forex/forex/amount_dialog.dart';
@@ -76,6 +77,18 @@ class _InForex extends StatelessWidget {
       slivers: [
         _LatestDate(state: state),
         _LatestError(state: state),
+        SliverToBoxAdapter(
+          child: Visibility(
+            visible: state.convertList.isEmpty,
+            child: Padding(
+              padding: const EdgeInsets.all(44.0),
+              child: Image.asset(
+                Assets.undrawPrintingInvoices,
+                fit: BoxFit.fitWidth,
+              ),
+            ),
+          ),
+        ),
         SliverList(
           delegate: SliverChildListDelegate(
             List.generate(state.convertList.length, (index) {

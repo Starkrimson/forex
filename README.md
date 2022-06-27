@@ -1,16 +1,31 @@
-# forex 货币汇率转换 App
+# forex
 
-A new Flutter project.
+使用 Flutter 开发的货币汇率转换 App
+
+编译环境：Flutter (Channel stable, 3.0.2, on macOS 12.4 21F79 darwin-x64, locale en-HK)，Xcode 13.4.1
+
+![](screenshots.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### [Bloc (Cubit) 状态管理](https://bloclibrary.dev)
 
-A few resources to get you started if this is your first Flutter project:
+![](https://bloclibrary.dev/assets/cubit_architecture_full.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### [pre-commit](https://pre-commit.com)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git hook，每次提交代码前格式化代码，检查代码问题。
+
+[Flutter pre-commit: git 钩子](https://anicon.notion.site/Flutter-pre-commit-git-45356877e3f343c19c5e82c80e6e4d0f)
+
+## 数据来源
+
+### api
+
+[<img alt="fixer.io" src="https://fixer.io/fixer_images/fixer_money.png" width="120"/>](https://fixer.io) [fixer.io](https://fixer.io)
+
+> Foreign exchange rates and currency conversion JSON API
+
+### 占位图
+
+[unDraw](https://undraw.co/illustrations)
