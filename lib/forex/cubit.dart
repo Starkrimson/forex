@@ -65,13 +65,20 @@ class ForexCubit extends Cubit<ForexState> {
     }
   }
 
-  setAmount(String uuid, num amount) async {
+  setAmount(String uuid, {num? from, num? to}) async {
     if (state is InForexState) {
       var list = (state as InForexState).convertList;
       final latest = (state as InForexState).latest;
       final index = list.indexWhere((element) => element.uuid == uuid);
       if (index < 0) return;
-      list[index].amount = amount;
+
+      if (from != null) {
+        list[index].amount = from;
+      } else if (to != null) {
+        final convert = list[index];
+        list[index].amount = to * (convert.to?.rateOther(convert.from) ?? 0);
+      }
+
       _dbProvider.updateConvert(list[index]);
       emit(InForexState(list, latest: latest));
     }

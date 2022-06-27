@@ -8,6 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 // Project imports:
 import 'package:forex/currencies/model.dart';
 import 'package:forex/currencies/popup_menu.dart';
+import 'package:forex/forex/amount_dialog.dart';
 import 'package:forex/forex/cubit.dart';
 import 'package:forex/forex/model.dart';
 
@@ -191,22 +192,30 @@ class ConvertCell extends StatelessWidget {
         ],
       ),
       const Spacer(),
-      Builder(builder: (context) {
-        return IconButton(
-          onPressed: () =>
-              BlocProvider.of<ForexCubit>(context).remove(item.uuid),
-          icon: Icon(
-            Icons.remove_circle,
-            color: Colors.red[300],
-          ),
-        );
-      }),
+      _RemoveCurrencyButton(item: item),
     ],
   );
 
-  late final fromAmount = _CurrencyAmount(amount: item.amount);
+  late final fromAmount = Builder(
+    builder: (context) {
+      return _CurrencyAmount(
+        amount: item.amount,
+        onChange: (amount) {
+          BlocProvider.of<ForexCubit>(context)
+              .setAmount(item.uuid, from: amount);
+        },
+      );
+    },
+  );
 
-  late final toAmount = _CurrencyAmount(amount: item.toAmount());
+  late final toAmount = Builder(
+    builder: (context) => _CurrencyAmount(
+      amount: item.toAmount(),
+      onChange: (amount) {
+        BlocProvider.of<ForexCubit>(context).setAmount(item.uuid, to: amount);
+      },
+    ),
+  );
 
   late final fromCode = Builder(
     builder: (context) => CurrencyPopupMenu(
@@ -258,13 +267,47 @@ class ConvertCell extends StatelessWidget {
   }
 }
 
+class _RemoveCurrencyButton extends StatelessWidget {
+  const _RemoveCurrencyButton({
+    Key? key,
+    required this.item,
+  }) : super(key: key);
+
+  final Convert item;
+
+  @override
+  Widget build(BuildContext context) {
+    return PopupMenuButton<bool>(
+      initialValue: false,
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Icon(
+          Icons.remove_circle,
+          color: Colors.red[300],
+        ),
+      ),
+      onSelected: (_) {
+        BlocProvider.of<ForexCubit>(context).remove(item.uuid);
+      },
+      itemBuilder: (context) {
+        return [
+          const PopupMenuItem(
+              value: true, child: Center(child: Icon(Icons.delete))),
+        ];
+      },
+    );
+  }
+}
+
 class _CurrencyAmount extends StatelessWidget {
   const _CurrencyAmount({
     Key? key,
     required this.amount,
+    required this.onChange,
   }) : super(key: key);
 
   final num? amount;
+  final Function(double) onChange;
 
   @override
   Widget build(BuildContext context) {
@@ -282,7 +325,21 @@ class _CurrencyAmount extends StatelessWidget {
               ),
             ),
           ),
-          IconButton(onPressed: () {}, icon: const Icon(Icons.edit, size: 16))
+          IconButton(
+            onPressed: () async {
+              final text = await showDialog(
+                context: context,
+                builder: (context) {
+                  // return EditAmountDialog(amount: amount ?? 0);
+                  return AmountDialog(amount ?? 0);
+                },
+              );
+              onChange(double.parse(text));
+              // final a = double.parse(text);
+              // BlocProvider.of<ForexCubit>(context).setAmount("uuid", a);
+            },
+            icon: const Icon(Icons.edit, size: 16),
+          )
         ],
       ),
     );
